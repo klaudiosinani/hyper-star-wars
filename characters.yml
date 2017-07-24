@@ -2,122 +2,132 @@
 # Star Wars Characters Color Schemes
 ##
 
-# BB8 Color-scheme
-bb8:
-  unibody: ''
-  header: ''
+characters:
+  # BB8 Color-scheme
+  bb8:
+    unibody: '#3FABA3'
+    header: '#009939'
 
-# Boba Fett Color-scheme
-boba-fett:
-  unibody: ''
-  header: ''
+  # Boba Fett Color-scheme
+  boba-fett:
+    unibody: '#7D7C79'
+    header: '#009939'
 
-# C3PO Color-scheme
-c3po:
-  unibody: ''
-  header: ''
+  # C3PO Color-scheme
+  c3po:
+    unibody: '#D4226A'
+    header: '#009939'
 
-# Chewbacca Color-scheme
-chewbacca:
-  unibody: ''
-  header: ''
+  # Chewbacca Color-scheme
+  chewbacca:
+    unibody: '#009939'
+    header: '#009939'
 
-# Darth Vader Color-scheme
-darth-vader:
-  unibody: ''
-  header: ''
+  # Darth Vader Color-scheme
+  darth-vader:
+    unibody: '#E12F3A'
+    header: '#1D1D1D'
 
-# Emperor Color-scheme
-emperor:
-  unibody: ''
-  header: ''
+  # Emperor Color-scheme
+  emperor:
+    unibody: '#5C589C'
+    header: '#9EA7A0'
 
-# Finn Color-scheme
-finn:
-  unibody: ''
-  header: ''
+  # Finn Color-scheme
+  finn:
+    unibody: '#FDC733'
+    header: '#202020'
 
-# Finn Stormtrooper Color-scheme
-finn-stormtrooper:
-  unibody: ''
-  header: ''
+  # Finn Stormtrooper Color-scheme
+  finn-stormtrooper:
+    unibody: '#6383C2'
+    header: '#F37571'
 
-# Han Solo Color-scheme
-han-solo:
-  unibody: ''
-  header: ''
+  # Han Solo Color-scheme
+  han-solo:
+    unibody: '#003157'
+    header: '#D29E76'
 
-# Han Solo Older Color-scheme
-han-solo-older:
-  unibody: ''
-  header: ''
+  # Han Solo Older Color-scheme
+  han-solo-older:
+    unibody: '#1D355B'
+    header: '#CB9573'
 
-# Kylo Ren Color-scheme
-kylo-ren:
-  unibody: ''
-  header: ''
+  # Kylo Ren Color-scheme
+  kylo-ren:
+    unibody: '#F0505A'
+    header: '#363635'
 
-# Leia Organa Color-scheme
-leia-organa:
-  unibody: ''
-  header: ''
+  # Leia Organa Color-scheme
+  leia-organa:
+    unibody: '#FDE663'
+    header: '#3F352D'
 
-# Luke Skywalker Color-scheme
-luke-skywalker:
-  unibody: ''
-  header: ''
+  # Luke Skywalker Color-scheme
+  luke-skywalker:
+    unibody: '#0059A4'
+    header: '#D19F76'
 
-# Luke Skywalker Older Color-scheme
-luke-skywalker-older:
-  unibody: ''
-  header: ''
+  # Luke Skywalker Older Color-scheme
+  luke-skywalker-older:
+    unibody: '#175FAD'
+    header: '#B4A798'
 
-# Maz Kanata Color-scheme
-maz-kanata:
-  unibody: ''
-  header: ''
+  # Maz Kanata Color-scheme
+  maz-kanata:
+    unibody: '#EDDCB2'
+    header: '#8F2728'
 
-# Obi Wan Kenobi Color-scheme
-obi-wan-kenobi:
-  unibody: ''
-  header: ''
+  # Obi Wan Kenobi Color-scheme
+  obi-wan-kenobi:
+    unibody: '#C5B6AE'
+    header: '#4D423C'
 
-# Poe Dameron Color-scheme
-poe-dameron:
-  unibody: ''
-  header: ''
+  # Poe Dameron Color-scheme
+  poe-dameron:
+    unibody: '#55BD7C'
+    header: '#4B4D4D'
 
-# Princess Leia Color-scheme
-princess-leia:
-  unibody: ''
-  header: ''
+  # Princess Leia Color-scheme
+  princess-leia:
+    unibody: '#F9E163'
+    header: '#3F3333'
 
-# R2D2 Color-scheme
-r2d2:
-  unibody: ''
-  header: ''
+  # R2D2 Color-scheme
+  r2d2:
+    unibody: '#E8683A'
+    header: '#010000'
 
-# Ray Color-scheme
-ray:
-  unibody: ''
-  header: ''
+  # Ray Color-scheme
+  ray:
+    unibody: '#887D73'
+    header: '#EDDAAB1'
 
-# Snowtrooper Color-scheme
-snowtrooper:
-  unibody: ''
-  header: ''
+  # Snowtrooper Color-scheme
+  snowtrooper:
+    unibody: '#984070'
+    header: '#545555'
 
-# Spacetrooper Color-scheme
-spacetrooper:
-  unibody: ''
-  header: ''
+  # Spacetrooper Color-scheme
+  spacetrooper:
+    unibody: '#798493'
+    header: '#303030'
 
-# Stormtrooper Color-scheme
-storm-trooper:
-  unibody: ''
-  header: ''
+  # Stormtrooper Color-scheme
+  storm-trooper:
+    unibody: '#8F95A2'
+    header: '#454546'
 
-# Yoda Color-scheme
-yoda:
-  unibody: ''
-  header: ''
+  # Yoda Color-scheme
+  yoda:
+    unibody: '#FFFDEC'
+    header: '#616332'
+
+##
+# Default values
+##
+default:
+  # Yoda Color-scheme
+  yoda:
+    unibody: '#FFFDEC'
+    header: '#616332'
