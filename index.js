@@ -9,37 +9,39 @@ exports.decorateConfig = config => {
 	let theme;
 	let keys;
 	let index;
+
 	const getTheme = Array.isArray(config.character) ? config.character[Math.floor(Math.random() * config.character.length)] : config.character;
-	let swTheme = getTheme.toLowerCase();
+	let starWarsTheme = getTheme.toLowerCase();
+
 	const unibody = config.unibody;
 	const unibodyFlag = unibody !== 'false';
 
 	// Load color palettes from yaml files
-	const colorSchemesYml = yaml.safeLoad(
+	const charactersYml = yaml.safeLoad(
 		fs.readFileSync(
-			homeDir('/.hyper_plugins/node_modules/hyper-star-wars/color-schemes.yml'),
+			homeDir('/.hyper_plugins/node_modules/hyper-star-wars/characters.yml'),
 			'utf8'
 		)
 	);
 
 	// Determine theme color palette
-	if (swTheme === 'random') {
-		keys = Object.keys(colorSchemesYml.character);
+	if (starWarsTheme === 'random') {
+		keys = Object.keys(charactersYml.characters);
 		index = Math.floor(Math.random() * (keys.length));
-		swTheme = keys[index];
+		starWarsTheme = keys[index];
 	}
 
-	if (Object.prototype.hasOwnProperty.call(colorSchemesYml.character, swTheme)) {
-		theme = colorSchemesYml.character[swTheme];
+	if (Object.prototype.hasOwnProperty.call(charactersYml.characters, starWarsTheme)) {
+		theme = charactersYml.characters[starWarsTheme];
 	} else {
-		theme = colorSchemesYml.default;
+		theme = charactersYml.default.yoda;
 	}
 
 	// Set theme colors
 	const primary = (unibodyFlag === true) ? theme.unibody : theme.header;
 	const secondary = '#383A42';
 	const tertiary = '#383A42';
-	const selectedColor = theme.primary;
+	const selectedColor = theme.header;
 
 	const syntax = {
 		dark: {
@@ -69,7 +71,7 @@ exports.decorateConfig = config => {
 	};
 
 	let pathToTheme;
-	const assemblePath = path + swTheme + extension;
+	const assemblePath = path + starWarsTheme + extension;
 
 	if (process.platform === 'win32') {
 		pathToTheme = assemblePath.replace(/\\/g, '/');
