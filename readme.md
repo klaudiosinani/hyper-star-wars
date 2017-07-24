@@ -1,8 +1,8 @@
 # hyper-star-wars
 
-> 🌟🚀Super awesome, your Hyper terminal will look.
+> 🌟🚀Super awesome, your Hyper terminal shall look.
 
-[![Build Status](https://travis-ci.org/hyper-star-wars/)](https://travis-ci.org/hyper-star-wars/hyper-star-wars) [![Dependency Status](https://dependencyci.com/github/hyper-star-wars/)](https://dependencyci.com/github/hyper-star-wars) [![Trello Board](https://img.shields.io/badge/trello-board-blue.svg)](https://trello.com/b/) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/hyper-star-wars/) [![Latest version](https://badge.fury.io/gh/hyper-star-wars%2Fhyper-star-wars.svg)](https://github.com/hyper-star-wars/) [![npm](https://img.shields.io/npm/dm/)](https://github.com/hyper-star-wars/)
+[![Build Status](https://travis-ci.org/hyper-pokemon/hyper-star-wars.svg?branch=master)](https://travis-ci.org/hyper-pokemon/hyper-star-wars) [![Dependency Status](https://dependencyci.com/github/hyper-pokemon/hyper-star-wars/badge)](https://dependencyci.com/github/hyper-pokemon/hyper-star-wars) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/hyper-pokemon/Lobby) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/hyper-pokemon/hyper-star-wars) [![Latest version](https://badge.fury.io/gh/hyper-pokemon%2Fhyper-star-wars.svg)](https://github.com/hyper-pokemon/hyper-star-wars) [![npm](https://img.shields.io/npm/dm/hyper-star-wars.svg?label=DL)](https://github.com/hyper-pokemon/hyper-star-wars)
 
 ## Contents
 
