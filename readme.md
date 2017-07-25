@@ -1,4 +1,8 @@
-# hyper-star-wars
+<h1 align="center">
+			<a href="https://github.com/hyper-pokemon/hyper-star-wars">
+				<img src="https://cdn.rawgit.com/hyper-pokemon/hyper-star-wars/e022af78/media/header.png" alt="Hyper Star Wars" width="100%">
+			</a>
+</h1>
 
 > 🌟🚀Super awesome, your Hyper terminal shall look.
 
