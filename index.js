@@ -9,9 +9,9 @@ exports.decorateConfig = config => {
 	let theme;
 	let keys;
 	let index;
-	const getTheme = Array.isArray(config.character) ? config.character[Math.floor(Math.random() * config.character.length)] : config.character;
+	const getTheme = Array.isArray(config.StarWarsTheme.character) ? config.StarWarsTheme.character[Math.floor(Math.random() * config.StarWarsTheme.character.length)] : config.StarWarsTheme.character;
 	let starWarsTheme = getTheme.toLowerCase();
-	const unibody = config.unibody;
+	const unibody = config.StarWarsTheme.unibody;
 	const unibodyFlag = unibody !== 'false';
 
 	// Load color palettes from yaml files
@@ -57,7 +57,7 @@ exports.decorateConfig = config => {
 	const themeLightWhite = theme.lightWhite;
 
 	const syntax = {
-		dark: {
+		scheme: {
 			borderColor: primary,
 			cursorColor: fontColor,
 			foregroundColor: fontColor,
@@ -93,7 +93,7 @@ exports.decorateConfig = config => {
 	}
 
 	return Object.assign({}, config,
-		syntax.dark, {
+		syntax.scheme, {
 			termCSS: `
           ${config.termCSS || ''}
           ::selection {
