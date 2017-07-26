@@ -138,6 +138,12 @@ $ npm install hyper-star-wars -g
 
 ## Related
 
+Here is an awesome list where you can find other awesome Hyper themes & plugins!
+
+- [Hyper Pokemon](https://github.com/hyper-pokemon/hyper-pokemon)
+- [Awesome Hyper](https://github.com/bnb/awesome-hyper)
+- [Pure](https://github.com/sindresorhus/pure)
+
 [:arrow_up:Back to top!](#contents)
 
 ## Team
