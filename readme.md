@@ -78,6 +78,34 @@ config: {
 
 ## Options
 
+### `character`
+
+Using this option you can choose your Star Wars character theme along with it's tailor-made syntax color.
+
+The assignable values are:
+
+- `character name` - choose any of the [available Star Wars characters](#available-themes) by defining their name.<br/><br/>**i.e.** `character: 'yoda'`, `character: 'darth-vader'`, `character: 'bb8'` **etc**<br/><br/>
+
+- `random` - randomly selects a Star Wars character theme from **all** available characters, each time you fire up a new Hyper terminal session.<br/><br/>
+**i.e.** `character: 'random'`<br/><br/>
+
+- `character array` - randomly selects a Star Wars character theme/theme option from a **defined array** holding **custom multiple themes/theme options**, each time you fire up a new Hyper terminal session. Any from the available Star Wars character **themes** can be choosen!<br/><br/>
+**i.e.**
+	- `character: ['yoda', 'chewbacca', 'bb8', 'han-solo', 'c3po']`
+	- `character: ['darth-vader', 'stormtrooper', 'spacetrooper', 'ray']`
+	- `character: ['random', 'finn', 'boba-fett', 'leia-organa', 'maz-katana']` **etc**<br/><br/>
+
+### `unibody`
+
+Choose whether or not you want the Hyper windows header color to be the same as the background Star Wars character theme.
+
+The assignable values are:
+
+- `unibody: 'true'` - choose it for a unibody color theme
+- `unibody: 'false'` - go for it if you like your terminal more colorful
+
+In addition, completely omitting the `unibody` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`. (**default state**)
+
 [:arrow_up:Back to top!](#contents)
 
 ## Star Wars Characters
