@@ -9,10 +9,8 @@ exports.decorateConfig = config => {
 	let theme;
 	let keys;
 	let index;
-
 	const getTheme = Array.isArray(config.character) ? config.character[Math.floor(Math.random() * config.character.length)] : config.character;
 	let starWarsTheme = getTheme.toLowerCase();
-
 	const unibody = config.unibody;
 	const unibodyFlag = unibody !== 'false';
 
@@ -39,33 +37,48 @@ exports.decorateConfig = config => {
 
 	// Set theme colors
 	const primary = (unibodyFlag === true) ? theme.unibody : theme.header;
-	const secondary = '#383A42';
-	const tertiary = '#383A42';
+	const fontColor = theme.font;
 	const selectedColor = theme.header;
+	const themeBlack = theme.black;
+	const themeRed = theme.red;
+	const themeGreen = theme.green;
+	const themeYellow = theme.yellow;
+	const themeBlue = theme.blue;
+	const themeMagenta = theme.magenta;
+	const themeCyan = theme.cyan;
+	const themeWhite = theme.white;
+	const themeLightBlack = theme.lightBlack;
+	const themeLightRed = theme.lightRed;
+	const themeLightGreen = theme.lightGreen;
+	const themeLightYellow = theme.lightYellow;
+	const themeLightBlue = theme.lightBlue;
+	const themeLightMagenta = theme.lightMagenta;
+	const themeLightCyan = theme.lightCyan;
+	const themeLightWhite = theme.lightWhite;
 
 	const syntax = {
 		dark: {
 			borderColor: primary,
-			cursorColor: secondary,
-			foregroundColor: secondary,
-			backgroundColor: '#383A42',
+			cursorColor: fontColor,
+			foregroundColor: fontColor,
+			backgroundColor: '#fff',
 			colors: {
-				black: tertiary,
-				red: secondary,
-				green: tertiary,
-				yellow: secondary,
-				blue: secondary,
-				magenta: secondary,
-				cyan: secondary,
-				white: secondary,
-				lightBlack: tertiary,
-				lightRed: secondary,
-				lightGreen: secondary,
-				lightYellow: secondary,
-				lightBlue: secondary,
-				lightMagenta: secondary,
-				lightCyan: secondary,
-				lightWhite: secondary
+				black: themeBlack,
+				red: themeRed,
+				green: themeGreen,
+				yellow: themeYellow,
+				blue: themeBlue,
+				magenta: themeMagenta,
+				cyan: themeCyan,
+				white: themeWhite,
+				lightBlack: themeLightBlack,
+				lightRed: themeLightRed,
+				lightGreen: themeLightGreen,
+				lightYellow: themeLightYellow,
+				lightBlue: themeLightBlue,
+				lightMagenta: themeLightMagenta,
+				lightCyan: themeLightCyan,
+				lightWhite: themeLightWhite
 			}
 		}
 	};
@@ -87,7 +100,7 @@ exports.decorateConfig = config => {
             background: ${selectedColor} !important;
           }
           ::-webkit-scrollbar-thumb {
-            background-color: ${secondary};
+            background-color: ${fontColor};
             -webkit-box-shadow: none;
 					}
           x-screen {
@@ -108,14 +121,14 @@ exports.decorateConfig = config => {
         }
         .tabs_nav .tabs_title,
         .tabs_nav .tabs_list .tab_tab {
-          color: ${secondary};
+          color: ${fontColor};
           border: 0;
         }
         .tab_icon {
-          color: ${secondary};
+          color: ${fontColor};
         }
         .tab_icon:hover {
-          background-color: ${secondary};
+          background-color: ${fontColor};
         }
         .tabs_nav .tabs_list .tab_tab:not(.tab_active) {
           background-color: rgba(0,0,0,0.1);
@@ -124,10 +137,10 @@ exports.decorateConfig = config => {
           color: ${primary};
         }
         .tabs_nav .tabs_list .tab_active .tab_text {
-          border-bottom: 3px solid ${secondary};
+          border-bottom: 3px solid ${fontColor};
         }
         .terms_terms .terms_termGroup .splitpane_panes .splitpane_divider {
-          background-color: ${secondary} !important;
+          background-color: ${fontColor} !important;
         }
       `
 		}
