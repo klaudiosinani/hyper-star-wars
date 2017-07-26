@@ -14,8 +14,7 @@
 - [Install](#install)
 - [Usage](#usage)
 - [Options](#options)
-- [Available Themes](#available-themes)
-- [Showcase](#showcase)
+- [Star Wars Characters](#star-wars-characters)
 - [Download](#download)
 - [Related](#related)
 - [Team](#team)
@@ -57,17 +56,31 @@ plugins: ['hyper-star-wars']
 
 Once you have installed `hyper-star-wars`, it's time to set your favorite theme!
 
+Go to your `~/.hyper.js` and add the `StarWarsTheme` settings object below the `colors` object, and define there your theme of choice!
+
+Here is a quick example, where we choose the `yoda` theme, with a `unibody` color for the window header!
+
+```js
+config: {
+    //...
+    colors: {
+    //...
+    },
+    StarWarsTheme: {
+        character: 'yoda', // Define your favorite star wars character!
+        unibody: 'true' // Define the color of the Hyper window header!
+    },
+    //...
+}
+```
+
 [:arrow_up:Back to top!](#contents)
 
 ## Options
 
 [:arrow_up:Back to top!](#contents)
 
-## Available Themes
-
-[:arrow_up:Back to top!](#contents)
-
-## Showcase
+## Star Wars Characters
 
 [:arrow_up:Back to top!](#contents)
 
