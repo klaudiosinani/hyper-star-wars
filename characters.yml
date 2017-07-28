@@ -7,6 +7,7 @@ characters:
   bb8:
     unibody: '#3FABA3'
     header: '#F3912A'
+    tabs: '#F7C134'
     font: '#550055'
     black: '#050709'
     red: '#871A1A'
@@ -28,7 +29,8 @@ characters:
   # Boba Fett Color-scheme
   boba-fett:
     unibody: '#7D7C79'
-    header: '#316754'
+    header: '#2F4F42'
+    tabs: '#316754'
     font: '#F2F1EF'
     black: '#292929'
     red: '#F4B350'
@@ -50,7 +52,8 @@ characters:
   # C3PO Color-scheme
   c3po:
     unibody: '#D4226A'
-    header: '#FCD781'
+    header: '#ECAE44'
+    tabs: '#FCD781'
     font: '#FEFEFE'
     black: '#7E7E7E'
     red: '#3B0000'
@@ -72,7 +75,8 @@ characters:
   # Chewbacca Color-scheme
   chewbacca:
     unibody: '#009939'
-    header: '#AF7235'
+    header: '#6E4822'
+    tabs: '#AF7235'
     font: '#F2F1EF'
     black: '#7E7E7E'
     red: '#360000'
@@ -95,6 +99,7 @@ characters:
   darth-vader:
     unibody: '#E12F3A'
     header: '#1D1D1D'
+    tabs: '#2D312E'
     font: '#FEFEFE'
     black: '#000000'
     red: '#FDE3A7'
@@ -116,7 +121,8 @@ characters:
   # Emperor Color-scheme
   emperor:
     unibody: '#5C589C'
-    header: '#9EA7A0'
+    header: '#1E272B'
+    tabs: '#27373A'
     font: '#FEFEFE'
     black: '#050709'
     red: '#E6CC22'
@@ -138,7 +144,8 @@ characters:
   # Finn Color-scheme
   finn:
     unibody: '#FDC733'
-    header: '#202020'
+    header: '#060709'
+    tabs: '#202020'
     font: '#FEFEFE'
     black: '#000000'
     red: '#E54B4B'
@@ -160,7 +167,8 @@ characters:
   # Finn Stormtrooper Color-scheme
   finn-stormtrooper:
     unibody: '#6383C2'
-    header: '#F37571'
+    header: '#CB555C'
+    tabs: '#505460'
     font: '#00D2FF'
     black: '#050709'
     red: '#600000'
@@ -182,7 +190,8 @@ characters:
   # Han Solo Color-scheme
   han-solo:
     unibody: '#003157'
-    header: '#D29E76'
+    header: '#4B3A2E'
+    tabs: '#D29E76'
     font: '#F2F1EF'
     black: '#000000'
     red: '#F9BF3B'
@@ -204,7 +213,8 @@ characters:
   # Han Solo Older Color-scheme
   han-solo-older:
     unibody: '#1D355B'
-    header: '#CB9573'
+    header: '#716762'
+    tabs: '#CB9573'
     font: '#F2F1EF'
     black: '#000000'
     red: '#F9BF3B'
@@ -226,7 +236,8 @@ characters:
   # Kylo Ren Color-scheme
   kylo-ren:
     unibody: '#F0505A'
-    header: '#363635'
+    header: '#0D090D'
+    tabs: '#363635'
     font: '#FEFEFE'
     black: '#000000'
     red: '#FDE3A7'
@@ -249,6 +260,7 @@ characters:
   leia-organa:
     unibody: '#FDE663'
     header: '#3F352D'
+    tabs: '#CDA58E'
     font: '#FEFEFE'
     black: '#000000'
     red: '#D50000'
@@ -270,7 +282,8 @@ characters:
   # Luke Skywalker Color-scheme
   luke-skywalker:
     unibody: '#0059A4'
-    header: '#D19F76'
+    header: '#9C7B4D'
+    tabs: '#D19F76'
     font: '#FEFEFE'
     black: '#000000'
     red: '#600000'
@@ -292,7 +305,8 @@ characters:
   # Luke Skywalker Older Color-scheme
   luke-skywalker-older:
     unibody: '#175FAD'
-    header: '#B4A798'
+    header: '#857A6E'
+    tabs: '#B4A798'
     font: '#FEFEFE'
     black: '#000000'
     red: '#600000'
@@ -314,7 +328,8 @@ characters:
   # Maz Kanata Color-scheme
   maz-kanata:
     unibody: '#EDDCB2'
-    header: '#8F2728'
+    header: '#4A614B'
+    tabs: '#627863'
     font: '#F9F9FA'
     black: '#000000'
     red: '#FF903C'
@@ -337,6 +352,7 @@ characters:
   obi-wan-kenobi:
     unibody: '#C5B6AE'
     header: '#4D423C'
+    tabs: '#6A594E'
     font: '#D25265'
     black: '#050709'
     red: '#9E1E00'
@@ -358,7 +374,8 @@ characters:
   # Poe Dameron Color-scheme
   poe-dameron:
     unibody: '#55BD7C'
-    header: '#4B4D4D'
+    header: '#070808'
+    tabs: '#4B4D4D'
     font: '#F2F1EF'
     black: '#000000'
     red: '#E12F3A'
@@ -381,6 +398,7 @@ characters:
   princess-leia:
     unibody: '#F9E163'
     header: '#3F3333'
+    tabs: '#574d4C'
     font: '#FEFEFE'
     black: '#000000'
     red: '#D50000'
@@ -402,7 +420,8 @@ characters:
   # R2D2 Color-scheme
   r2d2:
     unibody: '#E8683A'
-    header: '#010000'
+    header: '#0068A3'
+    tabs: '#0086B7'
     font: '#42002F'
     black: '#000000'
     red: '#550000'
@@ -424,7 +443,8 @@ characters:
   # Ray Color-scheme
   ray:
     unibody: '#887D73'
-    header: '#EDDAAB'
+    header: '#EDB283'
+    tabs: '#FCD0B1'
     font: '#2D0042'
     black: '#050709'
     red: '#600000'
@@ -446,7 +466,8 @@ characters:
   # Snowtrooper Color-scheme
   snowtrooper:
     unibody: '#984070'
-    header: '#545555'
+    header: '#040707'
+    tabs: '#242424'
     font: '#00AE72'
     black: '#050709'
     red: '#550000'
@@ -469,6 +490,7 @@ characters:
   spacetrooper:
     unibody: '#798493'
     header: '#303030'
+    tabs: '#E2E4E7'
     font: '#41007D'
     black: '#050709'
     red: '#B22222'
@@ -491,6 +513,7 @@ characters:
   storm-trooper:
     unibody: '#8F95A2'
     header: '#454546'
+    tabs: '#DCDDDF'
     font: '#41007D'
     black: '#050709'
     red: '#B22222'
@@ -513,6 +536,7 @@ characters:
   yoda:
     unibody: '#FFFDEC'
     header: '#616332'
+    tabs: '#3C3B2B'
     font: '#03A678'
     black: '#050709'
     red: '#4B0000'
@@ -539,6 +563,7 @@ default:
   yoda:
     unibody: '#FFFDEC'
     header: '#616332'
+    tabs: '#3C3B2B'
     font: '#03A678'
     black: '#050709'
     red: '#4B0000'
