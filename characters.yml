@@ -334,7 +334,7 @@ characters:
     lightWhite: '#FFFFFF'
 
   # Obi Wan Kenobi Color-scheme
-  obi-wan-kenobi: #008B8B
+  obi-wan-kenobi:
     unibody: '#C5B6AE'
     header: '#4D423C'
     font: '#D25265'
@@ -375,7 +375,7 @@ characters:
     lightBlue: '#000057'
     lightMagenta: '#9400D3'
     lightCyan: '#00FFFF'
-    lightWhite: '#ffffff'
+    lightWhite: '#FFFFFF'
 
   # Princess Leia Color-scheme
   princess-leia:
