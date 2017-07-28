@@ -72,9 +72,9 @@ characters:
   # Chewbacca Color-scheme
   chewbacca:
     unibody: '#009939'
-    header: '#af7235'
+    header: '#AF7235'
     font: '#F2F1EF'
-    black: '#000000'
+    black: '#7E7E7E'
     red: '#360000'
     green: '#002A00'
     yellow: '#F1F227'
@@ -82,14 +82,14 @@ characters:
     magenta: '#360036'
     cyan: '#2DDAFD'
     white: '#FEFEFE'
-    lightBlack: '#2E343B'
+    lightBlack: '#BFBFBF'
     lightRed: '#360000'
     lightGreen: '#002A00'
     lightYellow: '#F1F227'
     lightBlue: '#1C2A43'
     lightMagenta: '#360036'
     lightCyan: '#2DDAFD'
-    lightWhite: '#ffffff'
+    lightWhite: '#FFFFFF'
 
   # Darth Vader Color-scheme
   darth-vader:
