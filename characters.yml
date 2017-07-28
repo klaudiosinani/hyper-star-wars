@@ -397,7 +397,7 @@ characters:
     lightBlue: '#2A7AB0'
     lightMagenta: '#886288'
     lightCyan: '#22A7F0'
-    lightWhite: '#ffffff'
+    lightWhite: '#FFFFFF'
 
   # R2D2 Color-scheme
   r2d2:
