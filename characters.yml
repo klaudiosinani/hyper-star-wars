@@ -45,7 +45,7 @@ characters:
     lightBlue: '#22A7F0'
     lightMagenta: '#F1A9A0'
     lightCyan: '#2DDAFD'
-    lightWhite: '#ffffff'
+    lightWhite: '#FFFFFF'
 
   # C3PO Color-scheme
   c3po:
