@@ -257,7 +257,7 @@ characters:
     blue: '#2A7AB0'
     magenta: '#886288'
     cyan: '#22A7F0'
-    white: '#f2f1ef'
+    white: '#F2F1EF'
     lightBlack: '#7E7E7E'
     lightRed: '#D50000'
     lightGreen: '#1E824C'
@@ -265,7 +265,7 @@ characters:
     lightBlue: '#2A7AB0'
     lightMagenta: '#886288'
     lightCyan: '#22A7F0'
-    lightWhite: '#ffffff'
+    lightWhite: '#FFFFFF'
 
   # Luke Skywalker Color-scheme
   luke-skywalker:
