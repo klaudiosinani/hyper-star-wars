@@ -111,7 +111,7 @@ characters:
     lightBlue: '#86E2D5'
     lightMagenta: '#FF9ADB'
     lightCyan: '#E0FFFF'
-    lightWhite: '#C8F7C5'
+    lightWhite: '#FFFFFF'
 
   # Emperor Color-scheme
   emperor:
@@ -234,7 +234,7 @@ characters:
     yellow: '#F1F227'
     blue: '#86E2D5'
     magenta: '#FF9ADB'
-    cyan: '#E0FFFF'
+    cyan: '#9AF1F6'
     white: '#C8F7C5'
     lightBlack: '#D3D3D3'
     lightRed: '#FDE3A7'
@@ -242,8 +242,8 @@ characters:
     lightYellow: '#F1F227'
     lightBlue: '#86E2D5'
     lightMagenta: '#FF9ADB'
-    lightCyan: '#E0FFFF'
-    lightWhite: '#C8F7C5'
+    lightCyan: '#9AF1F6'
+    lightWhite: '#FFFFFF'
 
   # Leia Organa Color-scheme
   leia-organa:
