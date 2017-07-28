@@ -155,7 +155,7 @@ characters:
     lightBlue: '#0000CB'
     lightMagenta: '#5A0B69'
     lightCyan: '#2DDAFD'
-    lightWhite: '#ffffff'
+    lightWhite: '#FFFFFF'
 
   # Finn Stormtrooper Color-scheme
   finn-stormtrooper:
