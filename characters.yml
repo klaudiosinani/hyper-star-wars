@@ -507,7 +507,7 @@ characters:
     lightBlue: '#3900E2'
     lightMagenta: '#FFA7A4'
     lightCyan: '#21BDBD'
-    lightWhite: '#E3E3E3'
+    lightWhite: '#FFFFFF'
 
   # Yoda Color-scheme
   yoda:
@@ -529,7 +529,7 @@ characters:
     lightBlue: '#000036'
     lightMagenta: '#E26A6A'
     lightCyan: '#3498DB'
-    lightWhite: '#9BE1DB'
+    lightWhite: '#FFFFFF'
 
 ##
 # Default values
