@@ -463,7 +463,7 @@ characters:
     lightBlue: '#0A3055'
     lightMagenta: '#FF7878'
     lightCyan: '#4183D7'
-    lightWhite: '#ffffff'
+    lightWhite: '#FFFFFF'
 
   # Spacetrooper Color-scheme
   spacetrooper:
@@ -491,7 +491,7 @@ characters:
   storm-trooper:
     unibody: '#8F95A2'
     header: '#454546'
-    font: '#E3E3E3'
+    font: '#41007D'
     black: '#050709'
     red: '#B22222'
     green: '#88DB00'
