@@ -87,13 +87,17 @@ Using this option you can choose your Star Wars character theme along with it's 
 
 The assignable values are:
 
-- `character name` - choose any of the [available Star Wars characters](#available-themes) by defining their name.<br/><br/>**i.e.** `character: 'yoda'`, `character: 'darth-vader'`, `character: 'bb8'` **etc**<br/><br/>
+- `character name` - choose any of the [available Star Wars characters](#star-wars-characters) by defining their name.<br/><br/>**i.e.** `character: 'yoda'`, `character: 'darth-vader'`, `character: 'bb8'` **etc**<br/><br/>
 
-- `random` - randomly selects a Star Wars character theme from **all** available characters, each time you fire up a new Hyper terminal session.<br/><br/>
+- `random` - randomly selects a Star Wars character theme from **all available characters**, each time you fire up a new Hyper terminal session.<br/><br/>
 **i.e.** `character: 'random'`<br/><br/>
+
+- `light/dark side` - randomly selects a Star Wars character theme from the **dark side** or the **light side**, each time you fire up a new Hyper terminal session.<br/><br/>
+**i.e.** `character: 'light'`, `character: 'dark'`<br/><br/>
 
 - `character array` - randomly selects a Star Wars character theme/theme option from a **defined array** holding **custom multiple themes/theme options**, each time you fire up a new Hyper terminal session. Any from the available Star Wars character **themes** can be choosen!<br/><br/>
 **i.e.**
+    - `character: ['kylo-ren', 'light', 'dark', 'bb8']`
 	- `character: ['yoda', 'chewbacca', 'bb8', 'han-solo', 'c3po']`
 	- `character: ['darth-vader', 'stormtrooper', 'spacetrooper', 'ray']`
 	- `character: ['random', 'finn', 'boba-fett', 'leia-organa', 'maz-katana']` **etc**<br/><br/>
