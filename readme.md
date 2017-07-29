@@ -118,7 +118,7 @@ Activates your themes `lightsaber` mode, making your terminal's `cursor`, `tab b
 
 The assignable values are:
 
-- `lightsaber: 'true'` - enable your theme's `lightsaber` mode 
+- `lightsaber: 'true'` - enable your theme's `lightsaber` mode
 - `lightsaber: 'false'` - disable your theme's `lightsaber` mode
 
 Also, completely omitting the `lightsaber` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`. (**default state**)
@@ -141,6 +141,102 @@ In addition, completely omitting the `unibody` option from your `.hyper.js` will
 [:arrow_up:Back to top!](#contents)
 
 ## Star Wars Characters
+
+### `darth-vader`
+
+![](media/darth-vader.png)
+
+### `yoda`
+
+![](media/yoda.png)
+
+### `storm-trooper`
+
+![](media/storm-trooper.png)
+
+### `r2d2`
+
+![](media/r2d2.png)
+
+### `chewbacca`
+
+![](media/chewbacca.png)
+
+### `snowtrooper`
+
+![](media/snowtrooper.png)
+
+### `kylo-ren`
+
+![](media/kylo-ren.png)
+
+### `bb8`
+
+![](media/bb8.png)
+
+### `obi-wan-kenobi`
+
+![](media/obi-wan-kenobi.png)
+
+### `luke-skywalker-older`
+
+![](media/luke-skywalker-older.png)
+
+### `emperor`
+
+![](media/emperor.png)
+
+### `spacetrooper`
+
+![](media/spacetrooper.png)
+
+### `c3po`
+
+![](media/c3po.png)
+
+### `finn`
+
+![](media/finn.png)
+
+### `boba-fett`
+
+![](media/boba-fett.png)
+
+### `leia-organa`
+
+![](media/leia-organa.png)
+
+### `maz-kanata`
+
+![](media/maz-kanata.png)
+
+### `finn-stormtrooper`
+
+![](media/finn-stormtrooper.png)
+
+### `han-solo`
+
+![](media/han-solo.png)
+
+### `luke-skywalker`
+
+![](media/luke-skywalker.png)
+
+### `ray`
+
+![](media/ray.png)
+
+### `princess-leia`
+
+![](media/princess-leia.png)
+
+### `poe-dameron`
+
+![](media/poe-dameron.png)
+
+### `han-solo-older`
+
+![](media/han-solo-older.png)
 
 [:arrow_up:Back to top!](#contents)
 
