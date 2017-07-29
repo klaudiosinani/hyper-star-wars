@@ -98,6 +98,19 @@ The assignable values are:
 	- `character: ['darth-vader', 'stormtrooper', 'spacetrooper', 'ray']`
 	- `character: ['random', 'finn', 'boba-fett', 'leia-organa', 'maz-katana']` **etc**<br/><br/>
 
+### `lightsaber`
+
+Activates your themes `lightsaber` mode, making your terminal's `cursor`, `tab bar` & `scroll bar` glow!
+
+The assignable values are:
+
+- `lightsaber: 'true'` - enable your theme's `lightsaber` mode 
+- `lightsaber: 'false'` - disable your theme's `lightsaber` mode
+
+Also, completely omitting the `lightsaber` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`. (**default state**)
+
+![](media/lightsaber-example.png)
+
 ### `unibody`
 
 Choose whether or not you want the Hyper windows header color to be the same as the background Star Wars character theme.
