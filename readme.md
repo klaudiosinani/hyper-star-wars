@@ -58,7 +58,7 @@ Once you have installed `hyper-star-wars`, it's time to set your favorite theme!
 
 Go to your `~/.hyper.js` and add the `StarWarsTheme` settings object below the `colors` object, and define there your theme of choice!
 
-Here is a quick example, where we choose the `yoda` theme, with a `unibody` color for the window header!
+Here is a quick example, where we choose the `yoda` theme, with the `lightsaber` mode activated and a colorful window header!
 
 ```js
 config: {
@@ -68,11 +68,14 @@ config: {
     },
     StarWarsTheme: {
         character: 'yoda', // Define your favorite star wars character!
-        unibody: 'true' // Define the color of the Hyper window header!
+        lightsaber: 'true', // Activate your themes lightsaber mode!
+        unibody: 'false' // Define the color of the Hyper window header!
     },
     //...
 }
 ```
+
+![](media/example.png)
 
 [:arrow_up:Back to top!](#contents)
 
