@@ -77,6 +77,8 @@ config: {
 
 ![](media/example.png)
 
+To get the exact same look, install Google's [`Roboto Mono`](https://fonts.google.com/specimen/Roboto+Mono) font as well as [`oh-my-zsh`](http://ohmyz.sh/) and choose [`pure`](https://github.com/sindresorhus/pure) as your zsh prompt 🐱
+
 [:arrow_up:Back to top!](#contents)
 
 ## Options
@@ -162,9 +164,9 @@ $ npm install hyper-star-wars -g
 
 Here is an awesome list where you can find other awesome Hyper themes & plugins!
 
-- [Hyper Pokemon](https://github.com/hyper-pokemon/hyper-pokemon)
-- [Awesome Hyper](https://github.com/bnb/awesome-hyper)
-- [Pure](https://github.com/sindresorhus/pure)
+- [Hyper Pokemon](https://github.com/hyper-pokemon/hyper-pokemon) - 🌈👾Wondrous, tailor-made Pokémon themes for your Hyper terminal
+- [Awesome Hyper](https://github.com/bnb/awesome-hyper) - A curated list of sweet Hyper packages, themes, and resources.
+- [Pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt
 
 [:arrow_up:Back to top!](#contents)
 
