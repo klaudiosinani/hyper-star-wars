@@ -24,9 +24,24 @@ exports.decorateConfig = config => {
 		)
 	);
 
+	const sidesYml = yaml.safeLoad(
+		fs.readFileSync(
+			homeDir('/.hyper_plugins/node_modules/hyper-star-wars/sides.yml'),
+			'utf8'
+		)
+	);
+
 	// Determine theme color palette
 	if (starWarsTheme === 'random') {
 		keys = Object.keys(charactersYml.characters);
+		index = Math.floor(Math.random() * (keys.length));
+		starWarsTheme = keys[index];
+	} else if (starWarsTheme === 'light') {
+		keys = Object.keys(sidesYml.light);
+		index = Math.floor(Math.random() * (keys.length));
+		starWarsTheme = keys[index];
+	} else if (starWarsTheme === 'dark') {
+		keys = Object.keys(sidesYml.dark);
 		index = Math.floor(Math.random() * (keys.length));
 		starWarsTheme = keys[index];
 	}
