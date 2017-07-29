@@ -185,3 +185,13 @@ Here is an awesome list where you can find other awesome Hyper themes & plugins!
 ## License
 
 [MIT](https://github.com/hyper-pokemon/hyper-star-wars/blob/master/license.md)
+
+<div align="center">
+    <br>
+            <a href="https://github.com/hyper-pokemon/hyper-star-wars">
+                <img src="https://cdn.rawgit.com/hyper-pokemon/hyper-star-wars/33844725/media/logo.png" alt="Hyper Star Wars" width="65%">
+            </a>
+        <br>
+     <p><b> <> with ❤ by the Hyper Pokémon team </b></p>
+    <br>
+</div>
