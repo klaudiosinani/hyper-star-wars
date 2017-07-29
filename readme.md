@@ -109,6 +109,8 @@ The assignable values are:
 
 In addition, completely omitting the `unibody` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`. (**default state**)
 
+![](media/unibody-example.png)
+
 [:arrow_up:Back to top!](#contents)
 
 ## Star Wars Characters
