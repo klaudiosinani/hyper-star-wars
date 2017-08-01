@@ -4,9 +4,10 @@
 			</a>
 </h1>
 
-> 🌟🚀Super awesome, your Hyper terminal shall look. 
+> 🌟🚀Super awesome, your Hyper terminal shall look.
 
-[![May the Force be will you](https://img.shields.io/badge/May%20the%20Force-be%20with%20you!-brightgreen.svg)](https://github.com/hyper-pokemon/hyper-star-wars) [![Build Status](https://travis-ci.org/hyper-pokemon/hyper-star-wars.svg?branch=master)](https://travis-ci.org/hyper-pokemon/hyper-star-wars) [![Dependency Status](https://dependencyci.com/github/hyper-pokemon/hyper-star-wars/badge)](https://dependencyci.com/github/hyper-pokemon/hyper-star-wars) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/hyper-pokemon/Lobby) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/hyper-pokemon/hyper-star-wars) [![Latest version](https://badge.fury.io/gh/hyper-pokemon%2Fhyper-star-wars.svg)](https://github.com/hyper-pokemon/hyper-star-wars) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![May the Force be will you](https://img.shields.io/badge/May%20the%20Force-be%20with%20you-green.svg)](https://github.com/hyper-pokemon/hyper-star-wars) [![Build Status](https://travis-ci.org/hyper-pokemon/hyper-star-wars.svg?branch=master)](https://travis-ci.org/hyper-pokemon/hyper-star-wars) [![Dependency Status](https://dependencyci.com/github/hyper-pokemon/hyper-star-wars/badge)](https://dependencyci.com/github/hyper-pokemon/hyper-star-wars) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/hyper-pokemon/Lobby) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/hyper-pokemon/hyper-star-wars) [![Latest version](https://badge.fury.io/gh/hyper-pokemon%2Fhyper-star-wars.svg)](https://github.com/hyper-pokemon/hyper-star-wars) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
 ## Contents
 
 - [Description](#description)
