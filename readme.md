@@ -146,6 +146,11 @@ In addition, completely omitting the `unibody` option from your `.hyper.js` will
 
 ![](media/darth-vader.png)
 
+<details>
+<summary>View all the available Star Wars characters</summary>
+
+<br/>
+
 ### `yoda`
 
 ![](media/yoda.png)
@@ -237,6 +242,10 @@ In addition, completely omitting the `unibody` option from your `.hyper.js` will
 ### `han-solo-older`
 
 ![](media/han-solo-older.png)
+
+<br/>
+
+</details><br/>
 
 [:arrow_up:Back to top!](#contents)
 
