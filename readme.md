@@ -1,6 +1,6 @@
 <h1 align="center">
 			<a href="https://github.com/hyper-pokemon/hyper-star-wars">
-				<img src="https://cdn.rawgit.com/hyper-pokemon/hyper-star-wars/1e9d8958/media/header.png" alt="Hyper Star Wars" width="100%">
+				<img src="https://cdn.rawgit.com/hyper-pokemon/hyper-star-wars/8493363d/media/header.png" alt="Hyper Star Wars" width="100%">
 			</a>
 </h1>
 
@@ -300,7 +300,7 @@ Meet the team and all the [super awesome contributors](https://github.com/hyper-
 <div align="center">
     <br>
             <a href="https://github.com/hyper-pokemon/hyper-star-wars">
-                <img src="https://cdn.rawgit.com/hyper-pokemon/hyper-star-wars/1e9d8958/media/logo.png" alt="Hyper Star Wars" width="65%">
+                <img src="https://cdn.rawgit.com/hyper-pokemon/hyper-star-wars/8493363d/media/logo.png" alt="Hyper Star Wars" width="40%">
             </a>
         <br>
      <p><b> <> with ❤ by the Hyper Pokémon team </b></p>
