@@ -440,8 +440,8 @@ characters:
     lightCyan: '#00C1EB'
     lightWhite: '#FFFFFF'
 
-  # Ray Color-scheme
-  ray:
+  # Rey Color-scheme
+  rey:
     unibody: '#887D73'
     header: '#EDB283'
     tabs: '#FCD0B1'

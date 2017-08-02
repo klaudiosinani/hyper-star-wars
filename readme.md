@@ -227,9 +227,9 @@ In addition, completely omitting the `unibody` option from your `.hyper.js` will
 
 ![](media/luke-skywalker.png)
 
-### `ray`
+### `rey`
 
-![](media/ray.png)
+![](media/rey.png)
 
 ### `princess-leia`
 
