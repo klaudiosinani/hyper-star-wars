@@ -135,7 +135,7 @@ exports.decorateConfig = config => {
 			css: `
         ${config.css || ''}
         .terms_terms {
-          background: url(file://${pathToTheme}) center;
+          background: url("file://${pathToTheme}") center;
           background-size: cover;
         }
         .header_header, .header_windowHeader {
