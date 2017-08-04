@@ -15,6 +15,8 @@ exports.decorateConfig = config => {
 	const unibodyFlag = unibody !== 'false';
 	const lightsaber = config.StarWarsTheme.lightsaber;
 	const lightsaberFlag = lightsaber !== 'false';
+	const avatar = config.StarWarsTheme.avatar;
+	const avatarFlag = avatar !== 'false';
 
 	// Load color palettes from yaml files
 	const charactersYml = yaml.safeLoad(
@@ -57,6 +59,7 @@ exports.decorateConfig = config => {
 	const fontColor = theme.font;
 	const tabsColor = theme.tabs;
 	const selectedColor = theme.header;
+	const unibodyColor = theme.unibody;
 	const themeBlack = theme.black;
 	const themeRed = theme.red;
 	const themeGreen = theme.green;
@@ -114,6 +117,10 @@ exports.decorateConfig = config => {
 		pathToTheme = assemblePath;
 	}
 
+	// Background settings
+	const themeAvatar = 'url("file://' + pathToTheme + '") center';
+	const backgroundContent = (avatarFlag === true) ? themeAvatar : unibodyColor;
+
 	return Object.assign({}, config,
 		syntax.scheme, {
 			termCSS: `
@@ -135,7 +142,7 @@ exports.decorateConfig = config => {
 			css: `
         ${config.css || ''}
         .terms_terms {
-          background: url("file://${pathToTheme}") center;
+          background: ${backgroundContent};
           background-size: cover;
         }
         .header_header, .header_windowHeader {

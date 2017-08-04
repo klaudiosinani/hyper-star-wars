@@ -70,16 +70,17 @@ Here is a quick example, where we choose the `yoda` theme, with the `lightsaber`
 
 ```js
 config: {
-    //...
-    colors: {
-    //...
-    },
-    StarWarsTheme: {
-        character: 'yoda', // Define your favorite star wars character!
-        lightsaber: 'true', // Activate your themes lightsaber mode!
-        unibody: 'false' // Define the color of the Hyper window header!
-    },
-    //...
+	//...
+	colors: {
+	//...
+	},
+	StarWarsTheme: {
+		character: 'yoda', // Define your favorite star wars character!
+		lightsaber: 'true', // Activate your theme's lightsaber mode!
+		unibody: 'false', // Define the color of the Hyper window header!
+		avatar: 'true'  // Activate your theme's background avatar!
+	},
+	//...
 }
 ```
 
@@ -107,7 +108,7 @@ The assignable values are:
 
 - `character array` - randomly selects a Star Wars character theme/theme option from a **defined array** holding **custom multiple themes/theme options**, each time you fire up a new Hyper terminal session. Any from the available Star Wars character **themes** can be choosen!<br/><br/>
 **i.e.**
-    - `character: ['kylo-ren', 'light', 'dark', 'bb8']`
+	- `character: ['kylo-ren', 'light', 'dark', 'bb8']`
 	- `character: ['yoda', 'chewbacca', 'bb8', 'han-solo', 'c3po']`
 	- `character: ['darth-vader', 'stormtrooper', 'spacetrooper', 'ray']`
 	- `character: ['random', 'finn', 'boba-fett', 'leia-organa', 'maz-katana']` **etc**<br/><br/>
@@ -137,6 +138,19 @@ The assignable values are:
 In addition, completely omitting the `unibody` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`. (**default state**)
 
 ![](media/unibody-example.png)
+
+### `avatar`
+
+Choose whether or not you want the Star Wars character theme `avatar` to be displayed in the background.
+
+The assignable values are:
+
+- `avatar: 'true'` - enable your theme's background `avatar`
+- `avatar: 'false'` - disable your theme's background `avatar`
+
+In addition, completely omitting the `avatar` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`. (**default state**)
+
+![](media/avatar-example.png)
 
 [:arrow_up:Back to top!](#contents)
 
@@ -298,11 +312,11 @@ Meet the team and all the [super awesome contributors](https://github.com/hyper-
 [MIT](https://github.com/hyper-pokemon/hyper-star-wars/blob/master/license.md)
 
 <div align="center">
-    <br>
-            <a href="https://github.com/hyper-pokemon/hyper-star-wars">
-                <img src="https://cdn.rawgit.com/hyper-pokemon/hyper-star-wars/8493363d/media/logo.png" alt="Hyper Star Wars" width="40%">
-            </a>
-        <br>
-     <p><b> <> with ❤ by the Hyper Pokémon team </b></p>
-    <br>
+	<br>
+			<a href="https://github.com/hyper-pokemon/hyper-star-wars">
+				<img src="https://cdn.rawgit.com/hyper-pokemon/hyper-star-wars/8493363d/media/logo.png" alt="Hyper Star Wars" width="40%">
+			</a>
+		<br>
+	 <p><b> <> with ❤ by the Hyper Pokémon team </b></p>
+	<br>
 </div>
