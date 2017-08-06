@@ -26,7 +26,7 @@
 
 All of the wonderful Star Wars backgrounds were created by the amazing [Filipe de Carvalho](http://filipedecarvalho.com) and are part of his [Star Wars - Long Shadow Flat Design Icons](http://filipedecarvalho.com/star-wars-long-shadow-flat-design-icons) project!<br/>**You can [appreciate his project](https://www.behance.net/gallery/17998561/Star-Wars-Long-Shadow-Flat-Design-Icons) and the rest of his super awesome work on [Behance](https://www.behance.net/creativeflip)!**
 
-🎉 Do you enjoy this project? Maybe you love **Pokémon**? Then, you will also love our [Hyper Pokémon](https://github.com/hyper-pokemon/hyper-pokemon) ![](media/pikachu.gif) theme project!<br/>Go take a peek 👀 🎉
+🎉 Do you enjoy this project? Maybe you love **Pokémon**? Then, you will also love our [Hyper Pokémon](https://github.com/hyper-pokemon/hyper-pokemon) ![](media/pikachu.gif) theme project!<br/>Go take a peek 👀 
 
 Come over to our [Gitter](https://gitter.im/hyper-pokemon/Lobby) chat or [Twitter](https://twitter.com/hyper_pokemon) account to share your thoughts on the project or to just say hi!
 
@@ -86,7 +86,7 @@ config: {
 
 ![](media/example.png)
 
-To get the exact same look, install Google's [`Roboto Mono`](https://fonts.google.com/specimen/Roboto+Mono) font as well as [`oh-my-zsh`](http://ohmyz.sh/) and choose [`pure`](https://github.com/sindresorhus/pure) as your zsh prompt 🐱
+To get the exact same look, install Google's [`Roboto Mono`](https://fonts.google.com/specimen/Roboto+Mono) font as well as [`oh-my-zsh`](http://ohmyz.sh/) and choose [`pure`](https://github.com/sindresorhus/pure) as your zsh prompt
 
 [:arrow_up:Back to top!](#contents)
 
@@ -103,10 +103,10 @@ The assignable values are:
 - `random` - randomly selects a Star Wars character theme from **all available characters**, each time you fire up a new Hyper terminal session.<br/><br/>
 **i.e.** `character: 'random'`<br/><br/>
 
-- `light/dark side` - randomly selects a Star Wars character theme from the **dark side** or the **light side**, each time you fire up a new Hyper terminal session.<br/><br/>
+- `light/dark side` - randomly selects a Star Wars character theme from the **light side** or the **dark side**, each time you fire up a new Hyper terminal session.<br/><br/>
 **i.e.** `character: 'light'`, `character: 'dark'`<br/><br/>
 
-- `character array` - randomly selects a Star Wars character theme/theme option from a **defined array** holding **custom multiple themes/theme options**, each time you fire up a new Hyper terminal session. Any from the available Star Wars character **themes** can be choosen!<br/><br/>
+- `character array` - randomly selects a Star Wars character theme/theme option from a **defined array** holding **custom multiple themes/theme options**, each time you fire up a new Hyper terminal session. Any from the available Star Wars character **themes** can be chosen!<br/><br/>
 **i.e.**
 	- `character: ['kylo-ren', 'light', 'dark', 'bb8']`
 	- `character: ['yoda', 'chewbacca', 'bb8', 'han-solo', 'c3po']`
@@ -115,7 +115,7 @@ The assignable values are:
 
 ### `lightsaber`
 
-Activates your themes `lightsaber` mode, making your terminal's `cursor`, `tab bar` & `scroll bar` glow!
+Activates your theme's `lightsaber` mode, making your terminal's `cursor`, `tab bar` & `scroll bar` glow!
 
 The assignable values are:
 
@@ -128,7 +128,7 @@ Also, completely omitting the `lightsaber` option from your `.hyper.js` will hav
 
 ### `unibody`
 
-Choose whether or not you want the Hyper windows header color to be the same as the background Star Wars character theme.
+Choose whether or not you want the Hyper window header color to be the same as the background Star Wars character theme.
 
 The assignable values are:
 
