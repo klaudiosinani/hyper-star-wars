@@ -30,7 +30,7 @@ You can use issue labels to discover issues you could help us out with!
 - [`future` issues](https://github.com/hyper-pokemon/compilers/labels/future) are those that we'd like to get to, but not anytime soon. Please check before working on these since we may not yet want to take on the burden of supporting those features
 - on the [`help wanted`](https://github.com/hyper-pokemon/hyper-star-wars/labels/help-wanted) label you can always find something exciting going on
 
-You may find an issue is assigned, or has the [`assigned` label](https://github.com/hyper-pokemon/hyper-star-wars/labels/assigned). Please double-check before starting on this issue because somebody else is likely already working on it
+You may find an issue is assigned, or has the [`assigned` label](https://github.com/hyper-pokemon/hyper-star-wars/labels/assigned). Please double-check before starting on this issue because somebody else is likely already working on it.
 
 ### Say hi!
 
@@ -41,7 +41,12 @@ Come over and say hi anytime you feel like on [Gitter](https://gitter.im/hyper-p
 - Search the issue tracker before opening an issue
 - Ensure you're using the latest version of the theme (Quick cheat!) ![Latest version](https://badge.fury.io/gh/hyper-pokemon%2Fhyper-star-wars.svg)
 - Use a descriptive title
-- Include as much information as possible: Steps to reproduce the issue, theme settings, error message, Hyper version, operating system etc
+- Include as much information as possible;
+  - Steps to reproduce the issue
+  - Theme settings
+  - Error message
+  - Hyper version
+  - Operating system **etc**
 
 ### Submitting a pull request
 
