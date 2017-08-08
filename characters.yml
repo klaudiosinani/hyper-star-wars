@@ -510,7 +510,7 @@ characters:
     lightWhite: '#E3E3E3'
 
   # Stormtrooper Color-scheme
-  storm-trooper:
+  stormtrooper:
     unibody: '#8F95A2'
     header: '#454546'
     tabs: '#DCDDDF'
