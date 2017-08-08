@@ -169,9 +169,9 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
 
 ![](media/yoda.png)
 
-### `storm-trooper`
+### `stormtrooper`
 
-![](media/storm-trooper.png)
+![](media/stormtrooper.png)
 
 ### `r2d2`
 
