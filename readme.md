@@ -26,9 +26,11 @@
 
 All of the wonderful Star Wars backgrounds were created by the amazing [Filipe de Carvalho](http://filipedecarvalho.com) and are part of his [Star Wars - Long Shadow Flat Design Icons](http://filipedecarvalho.com/star-wars-long-shadow-flat-design-icons) project!<br/>**You can [appreciate his project](https://www.behance.net/gallery/17998561/Star-Wars-Long-Shadow-Flat-Design-Icons) and the rest of his super awesome work on [Behance](https://www.behance.net/creativeflip)!**
 
-🎉 Do you enjoy this project? Maybe you love **Pokémon**? Then, you will also love our [Hyper Pokémon](https://github.com/hyper-pokemon/hyper-pokemon) ![](media/pikachu.gif) theme project!<br/>Go take a peek 👀 
+🎉 Do you enjoy this project? Maybe you love **Pokémon**? Then, you will also love our [Hyper Pokémon](https://github.com/hyper-pokemon/hyper-pokemon) ![](media/pikachu.gif) theme project!<br/>Go take a peek 👀
 
 Come over to our [Gitter](https://gitter.im/hyper-pokemon/Lobby) chat or [Twitter](https://twitter.com/hyper_pokemon) account to share your thoughts on the project or to just say hi!
+
+Get the backgrounds as 4K HD wallpapers [here](https://www.dropbox.com/sh/il9099epzoyylvw/AABfkYQbuzFJr9yIDaOROZcVa?dl=0).
 
 ## Install
 
@@ -75,10 +77,10 @@ config: {
 	//...
 	},
 	StarWarsTheme: {
-		character: 'yoda', // Define your favorite star wars character!
-		lightsaber: 'true', // Activate your theme's lightsaber mode!
-		unibody: 'false', // Define the color of the Hyper window header!
-		avatar: 'true'  // Activate your theme's background avatar!
+		character: 'yoda', // Define your favorite star wars character
+		lightsaber: 'true', // Activate your theme's lightsaber mode
+		unibody: 'false', // Define the color of the Hyper window header
+		avatar: 'true'  // Activate your theme's background avatar
 	},
 	//...
 }
@@ -86,7 +88,7 @@ config: {
 
 ![](media/example.png)
 
-To get the exact same look, install Google's [`Roboto Mono`](https://fonts.google.com/specimen/Roboto+Mono) font as well as [`oh-my-zsh`](http://ohmyz.sh/) and choose [`pure`](https://github.com/sindresorhus/pure) as your zsh prompt
+To get the exact same look, install Google's [`Roboto Mono`](https://fonts.google.com/specimen/Roboto+Mono) font as well as [`oh-my-zsh`](http://ohmyz.sh/) and choose [`pure`](https://github.com/sindresorhus/pure) as your zsh prompt.
 
 [:arrow_up:Back to top!](#contents)
 
