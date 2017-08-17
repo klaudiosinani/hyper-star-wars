@@ -1,12 +1,12 @@
 <h1 align="center">
-			<a href="https://github.com/hyper-pokemon/hyper-star-wars">
-				<img src="https://cdn.rawgit.com/hyper-pokemon/hyper-star-wars/8493363d/media/header.png" alt="Hyper Star Wars" width="100%">
+			<a href="https://github.com/champloohq/hyper-star-wars">
+				<img src="https://cdn.rawgit.com/champloohq/hyper-star-wars/f76cf2d0/media/header.png" alt="Hyper Star Wars" width="100%">
 			</a>
 </h1>
 
 > 🌟🚀Super awesome, your Hyper terminal shall look.
 
-[![May the Force be will you](https://img.shields.io/badge/May%20the%20Force-be%20with%20you-green.svg)](https://github.com/hyper-pokemon/hyper-star-wars) [![Build Status](https://travis-ci.org/hyper-pokemon/hyper-star-wars.svg?branch=master)](https://travis-ci.org/hyper-pokemon/hyper-star-wars) [![Dependency Status](https://dependencyci.com/github/hyper-pokemon/hyper-star-wars/badge)](https://dependencyci.com/github/hyper-pokemon/hyper-star-wars) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/hyper-pokemon/Lobby) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/hyper-pokemon/hyper-star-wars) [![Latest version](https://badge.fury.io/gh/hyper-pokemon%2Fhyper-star-wars.svg)](https://github.com/hyper-pokemon/hyper-star-wars) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![May the Force be will you](https://img.shields.io/badge/May%20the%20Force-be%20with%20you-green.svg)](https://github.com/champloohq/hyper-star-wars) [![Build Status](https://travis-ci.org/champloohq/hyper-star-wars.svg?branch=master)](https://travis-ci.org/champloohq/hyper-star-wars) [![Dependency Status](https://dependencyci.com/github/champloohq/hyper-star-wars/badge)](https://dependencyci.com/github/champloohq/hyper-star-wars) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/hyper-pokemon/Lobby) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/champloohq/hyper-star-wars) [![Latest version](https://badge.fury.io/gh/hyper-pokemon%2Fhyper-star-wars.svg)](https://github.com/champloohq/hyper-star-wars/releases) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 ## Contents
 
@@ -26,9 +26,9 @@
 
 All of the wonderful Star Wars backgrounds were created by the amazing [Filipe de Carvalho](http://filipedecarvalho.com) and are part of his [Star Wars - Long Shadow Flat Design Icons](http://filipedecarvalho.com/star-wars-long-shadow-flat-design-icons) project!<br/>**You can [appreciate his project](https://www.behance.net/gallery/17998561/Star-Wars-Long-Shadow-Flat-Design-Icons) and the rest of his super awesome work on [Behance](https://www.behance.net/creativeflip)!**
 
-🎉 Do you enjoy this project? Maybe you love **Pokémon**? Then, you will also love our [Hyper Pokémon](https://github.com/hyper-pokemon/hyper-pokemon) ![](media/pikachu.gif) theme project!<br/>Go take a peek 👀
+🎉 Do you enjoy this project? Maybe you love **Pokémon**? Then, you will also love our [Hyper Pokémon](https://github.com/champloohq/hyper-pokemon) ![](media/pikachu.gif) theme project!<br/>Go take a peek 👀
 
-Come over to our [Gitter](https://gitter.im/hyper-pokemon/Lobby) chat or [Twitter](https://twitter.com/hyper_pokemon) account to share your thoughts on the project or to just say hi!
+Come over to our [Gitter](https://gitter.im/hyper-pokemon/Lobby) chat or [Twitter](https://twitter.com/champloohq) account to share your thoughts on the project or to just say hi!
 
 Get the backgrounds as 4K HD wallpapers [here](https://www.dropbox.com/sh/il9099epzoyylvw/AABfkYQbuzFJr9yIDaOROZcVa?dl=0).
 
@@ -271,7 +271,7 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
 
 ```bash
 # clone the repository
-$ git clone https://github.com/hyper-pokemon/hyper-star-wars.git
+$ git clone https://github.com/champloohq/hyper-star-wars.git
 # navigate to the project directory
 $ cd hyper-star-wars
 ```
@@ -293,7 +293,7 @@ $ npm install hyper-star-wars -g
 
 Here is an awesome list where you can find other awesome Hyper themes & plugins!
 
-- [Hyper Pokemon](https://github.com/hyper-pokemon/hyper-pokemon) - 🌈👾Wondrous, tailor-made Pokémon themes for your Hyper terminal
+- [Hyper Pokemon](https://github.com/champloohq/hyper-pokemon) - 🌈👾Wondrous, tailor-made Pokémon themes for your Hyper terminal
 - [Awesome Hyper](https://github.com/bnb/awesome-hyper) - A curated list of sweet Hyper packages, themes, and resources.
 - [Pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt
 
@@ -301,7 +301,7 @@ Here is an awesome list where you can find other awesome Hyper themes & plugins!
 
 ## Team
 
-Meet the team and all the [super awesome contributors](https://github.com/hyper-pokemon/hyper-star-wars/blob/master/authors.md)! ❤<br/>
+Meet the team and all the [super awesome contributors](https://github.com/champloohq/hyper-star-wars/blob/master/authors.md)! ❤<br/>
 
 [![Leonidas Avdelas](https://avatars.githubusercontent.com/u/15968096?s=130)](https://github.com/LoniasGR) | [![Panagiotis Bakos](https://avatars.githubusercontent.com/u/23611809?s=130)](https://github.com/pmpakos) | [![George Baxopoulos](https://avatars.githubusercontent.com/u/19195396?s=130)](https://github.com/georgebax) | [![Thanasis Gkanos](https://avatars.githubusercontent.com/u/18072542?s=130)](https://github.com/ThanasisGkanos) | [![Konstantinos Mitropoulos](https://avatars.githubusercontent.com/u/24499401?s=130)](https://github.com/tsikos7) | [![Klaus Sinani](https://avatars.githubusercontent.com/u/12670537?s=130)](https://github.com/klauscfhq) | [![Mario Sinani](https://avatars.githubusercontent.com/u/29512262?s=130)](https://github.com/snowmancfhq) | [![Konstantinos Skouras](https://avatars.githubusercontent.com/u/15022446?s=130)](https://github.com/SkourasKonst) | [![Gabriel Tibúrcio](https://avatars.githubusercontent.com/u/5959178?s=130)](https://github.com/tibuurcio)
 --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -311,14 +311,14 @@ Meet the team and all the [super awesome contributors](https://github.com/hyper-
 
 ## License
 
-[MIT](https://github.com/hyper-pokemon/hyper-star-wars/blob/master/license.md)
+[MIT](https://github.com/champloohq/hyper-star-wars/blob/master/license.md)
 
 <div align="center">
 	<br>
-			<a href="https://github.com/hyper-pokemon/hyper-star-wars">
-				<img src="https://cdn.rawgit.com/hyper-pokemon/hyper-star-wars/8493363d/media/logo.png" alt="Hyper Star Wars" width="40%">
+			<a href="https://github.com/champloohq/hyper-star-wars">
+				<img src="https://cdn.rawgit.com/champloohq/hyper-star-wars/f76cf2d0/media/logo.png" alt="Hyper Star Wars" width="40%">
 			</a>
 		<br>
-	 <p><b> <> with ❤ by the Hyper Pokémon team </b></p>
+	 <p><b> <> with ❤ by the Champloo HQ team </b></p>
 	<br>
 </div>
