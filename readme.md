@@ -22,9 +22,9 @@
 
 ## Description
 
-**24 tailor-made, full fledged Star Wars themes for your Hyper terminal! Yes, lightsabers included.**
+24 tailor-made, full fledged Star Wars themes for your Hyper terminal. Yes, lightsabers included.
 
-All of the wonderful Star Wars backgrounds were created by the amazing [Filipe de Carvalho](http://filipedecarvalho.com) and are part of his [Star Wars - Long Shadow Flat Design Icons](http://filipedecarvalho.com/star-wars-long-shadow-flat-design-icons) project!<br/>**You can [appreciate his project](https://www.behance.net/gallery/17998561/Star-Wars-Long-Shadow-Flat-Design-Icons) and the rest of his super awesome work on [Behance](https://www.behance.net/creativeflip).**
+All of the wonderful Star Wars backgrounds were created by the amazing [Filipe de Carvalho](http://filipedecarvalho.com) and are part of his [Star Wars - Long Shadow Flat Design Icons](http://filipedecarvalho.com/star-wars-long-shadow-flat-design-icons) project.<br/>**You can [appreciate his project](https://www.behance.net/gallery/17998561/Star-Wars-Long-Shadow-Flat-Design-Icons) and the rest of his super awesome work on [Behance](https://www.behance.net/creativeflip).**
 
 Do you enjoy this project? Maybe you love **Pokémon**? Then, you will also love our [Hyper Pokémon](https://github.com/champloohq/hyper-pokemon) ![](media/pikachu.gif) theme project.<br/>Go take a peek 👀
 
@@ -60,8 +60,6 @@ That's it!
 plugins: ['hyper-star-wars']
 ```
 
-[:arrow_up:Back to top!](#contents)
-
 ## Usage
 
 Once you have installed `hyper-star-wars`, it's time to set your favorite theme!
@@ -90,7 +88,7 @@ config: {
 
 To get the exact same look, install Google's [`Roboto Mono`](https://fonts.google.com/specimen/Roboto+Mono) font as well as [`oh-my-zsh`](http://ohmyz.sh/) and choose [`pure`](https://github.com/sindresorhus/pure) as your zsh prompt.
 
-[:arrow_up:Back to top!](#contents)
+[:arrow_up:Back to top](#contents)
 
 ## Options
 
@@ -154,7 +152,7 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
 
 ![](media/avatar-example.png)
 
-[:arrow_up:Back to top!](#contents)
+[:arrow_up:Back to top](#contents)
 
 ## Star Wars Characters
 
@@ -263,7 +261,7 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
 
 </details><br/>
 
-[:arrow_up:Back to top!](#contents)
+[:arrow_up:Back to top](#contents)
 
 ## Download
 
@@ -287,25 +285,19 @@ $ npm install hyper-star-wars --save-dev
 $ npm install hyper-star-wars -g
 ```
 
-[:arrow_up:Back to top!](#contents)
-
 ## Related
 
 More awesome Hyper plugins.
 
 - [Hyper Pokemon](https://github.com/champloohq/hyper-pokemon) - 🌈 Tailor-made Pokémon themes for your Hyper terminal
 
-[:arrow_up:Back to top!](#contents)
-
 ## Team
 
 Meet the team and all the [contributors](https://github.com/champloohq/hyper-star-wars/blob/master/authors.md). <br/>
 
-[![Klaus Sinani](https://avatars.githubusercontent.com/u/12670537?s=130)](https://github.com/klauscfhq) | [![Mario Sinani](https://avatars.githubusercontent.com/u/29512262?s=130)](https://github.com/snowmancfhq)
+[![Klaus Sinani](https://avatars.githubusercontent.com/u/12670537?s=130)](https://github.com/klauscfhq) | [![Mario Sinani](https://avatars.githubusercontent.com/u/29512262?s=130)](https://github.com/mariocfhq)
 --- | ---
-[Klaus Sinani](https://github.com/klauscfhq) [:mailbox:](mailto:klauscfhq@protonmail.com) | [Mario Sinani](https://github.com/mariocfhq) [:mailbox:](mailto:mariosinani@protonmail.ch)
-
-[:arrow_up:Back to top!](#contents)
+[Klaus Sinani](https://github.com/klauscfhq) | [Mario Sinani](https://github.com/mariocfhq)
 
 ## License
 
