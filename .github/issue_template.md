@@ -1,11 +1,11 @@
-# Reporting an Issue 🚀
+# Reporting an Issue
 
-✨🎉 Thank you for taking the time to contribute to the Hyper Star Wars theme! ✨🎉
+Thank you for taking the time to contribute to the Hyper Star Wars theme! ✨🎉
 
 ## Suggested quick smart steps
 
-- Run through the [contributing guidelines](https://github.com/hyper-pokemon/hyper-star-wars/blob/master/contributing.md)
-- Support questions are better asked in the project's [chat](https://gitter.im/hyper-pokemon/Lobby)! We will get back at you in a flash! 🙌 ❤️
+- Run through the [contributing guidelines](https://github.com/klauscfhq/hyper-star-wars/blob/master/contributing.md)
+- Support questions are better asked in the project's [chat](https://gitter.im/klauscfhq/hyper-star-wars). We will get back at you in a flash
 - Ensure the issue is not already reported
 
 *Delete the above section and the content in the sections below before submitting your issue*
@@ -32,7 +32,7 @@ Copy your theme settings here
 
 ## Environment
 
-Tell us which operating system you are using, as well as which versions of [Hyper](https://github.com/zeit/hyper/releases/latest) and [Hyper Star Wars](https://github.com/hyper-pokemon/hyper-star-wars/releases).
+Tell us which operating system you are using, as well as which versions of [Hyper](https://github.com/zeit/hyper/releases/latest) and [Hyper Star Wars](https://github.com/klauscfhq/hyper-star-wars/releases).
 
 ## Additional Information
 
