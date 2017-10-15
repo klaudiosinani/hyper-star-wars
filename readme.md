@@ -1,12 +1,12 @@
 <h1 align="center">
-			<a href="https://github.com/champloohq/hyper-star-wars">
+			<a href="https://github.com/klauscfhq/hyper-star-wars">
 				<img src="https://cdn.rawgit.com/champloohq/hyper-star-wars/f76cf2d0/media/header.png" alt="Hyper Star Wars" width="100%">
 			</a>
 </h1>
 
 > 🚀Super awesome, your Hyper terminal shall look.
 
-[![May the Force be will you](https://img.shields.io/badge/May%20the%20Force-be%20with%20you-green.svg)](https://github.com/champloohq/hyper-star-wars) [![Build Status](https://travis-ci.org/champloohq/hyper-star-wars.svg?branch=master)](https://travis-ci.org/champloohq/hyper-star-wars) [![Dependency Status](https://dependencyci.com/github/champloohq/hyper-star-wars/badge)](https://dependencyci.com/github/champloohq/hyper-star-wars) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/hyper-pokemon/Lobby) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/champloohq/hyper-star-wars) [![Latest version](https://badge.fury.io/gh/hyper-pokemon%2Fhyper-star-wars.svg)](https://github.com/champloohq/hyper-star-wars/releases) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![May the Force be will you](https://img.shields.io/badge/May%20the%20Force-be%20with%20you-green.svg)](https://github.com/klauscfhq/hyper-star-wars) [![Build Status](https://travis-ci.org/klauscfhq/hyper-star-wars.svg?branch=master)](https://travis-ci.org/klauscfhq/hyper-star-wars) [![Dependency Status](https://dependencyci.com/github/klauscfhq/hyper-star-wars/badge)](https://dependencyci.com/github/klauscfhq/hyper-star-wars) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/klauscfhq/hyper-star-wars) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/klauscfhq/hyper-star-wars) [![Latest version](https://badge.fury.io/gh/klauscfhq%2Fhyper-star-wars.svg)](https://github.com/kklauscfhq/hyper-star-wars/releases) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/bnb/awesome-hyper)
 
 ## Contents
 
@@ -15,20 +15,19 @@
 - [Usage](#usage)
 - [Options](#options)
 - [Star Wars Characters](#star-wars-characters)
-- [Download](#download)
 - [Related](#related)
 - [Team](#team)
 - [License](#license)
 
 ## Description
 
-24 tailor-made, full fledged Star Wars themes for your Hyper terminal. Yes, lightsabers included.
+24 tailor-made, full fledged Star Wars themes for your Hyper terminal.
 
-All of the wonderful Star Wars backgrounds were created by the amazing [Filipe de Carvalho](http://filipedecarvalho.com) and are part of his [Star Wars - Long Shadow Flat Design Icons](http://filipedecarvalho.com/star-wars-long-shadow-flat-design-icons) project.<br/>**You can [appreciate his project](https://www.behance.net/gallery/17998561/Star-Wars-Long-Shadow-Flat-Design-Icons) and the rest of his super awesome work on [Behance](https://www.behance.net/creativeflip).**
+All of the wonderful Star Wars backgrounds were created by the amazing [Filipe de Carvalho](http://filipedecarvalho.com) and are part of his [Star Wars - Long Shadow Flat Design Icons](http://filipedecarvalho.com/star-wars-long-shadow-flat-design-icons) project. You can [appreciate his project](https://www.behance.net/gallery/17998561/Star-Wars-Long-Shadow-Flat-Design-Icons) and the rest of his super awesome work on [Behance](https://www.behance.net/creativeflip).
 
-Do you enjoy this project? Maybe you love **Pokémon**? Then, you will also love our [Hyper Pokémon](https://github.com/champloohq/hyper-pokemon) ![](media/pikachu.gif) theme project.<br/>Go take a peek 👀
+Do you enjoy this project? Maybe you love **Pokémon**? Then, you will also love our [Hyper Pokémon](https://github.com/champloohq/hyper-pokemon) ![](media/pikachu.gif) theme project. Go take a peek.
 
-Come over to our [Gitter](https://gitter.im/hyper-pokemon/Lobby) chat or [Twitter](https://twitter.com/champloohq) account to share your thoughts on the project or to just say hi.
+Come over to our [Gitter](https://gitter.im/klauscfhq/hyper-star-wars) chat to share your thoughts on the project or to just say hi.
 
 Get the backgrounds as 4K HD wallpapers [here](https://www.dropbox.com/sh/il9099epzoyylvw/AABfkYQbuzFJr9yIDaOROZcVa?dl=0).
 
@@ -44,7 +43,7 @@ Then simply do the `npm` dance to get `hpm-cli`
 $ npm install -g hpm-cli
 ```
 
-Once done with that, it's time to install the `hyper-star-wars` theme!
+Once done with that, it's time to install the `hyper-star-wars` theme.
 
 ```bash
 # run the hyper plugin manager
@@ -54,7 +53,6 @@ $ hpm install hyper-star-wars
 ### Manually through `.hyper.js`
 
 Add `hyper-star-wars` to the plugins list in your `~/.hyper.js` config file and restart Hyper.
-That's it!
 
 ```js
 plugins: ['hyper-star-wars']
@@ -62,7 +60,7 @@ plugins: ['hyper-star-wars']
 
 ## Usage
 
-Once you have installed `hyper-star-wars`, it's time to set your favorite theme!
+Once you have installed `hyper-star-wars`, it's time to set your favorite theme.
 
 Go to your `~/.hyper.js` and add the `StarWarsTheme` settings object below the `colors` object, and define there your theme of choice.
 
@@ -87,8 +85,6 @@ config: {
 ![](media/example.png)
 
 To get the exact same look, install Google's [`Roboto Mono`](https://fonts.google.com/specimen/Roboto+Mono) font as well as [`oh-my-zsh`](http://ohmyz.sh/) and choose [`pure`](https://github.com/sindresorhus/pure) as your zsh prompt.
-
-[:arrow_up:Back to top](#contents)
 
 ## Options
 
@@ -151,8 +147,6 @@ The assignable values are:
 In addition, completely omitting the `avatar` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`. (**default state**)
 
 ![](media/avatar-example.png)
-
-[:arrow_up:Back to top](#contents)
 
 ## Star Wars Characters
 
@@ -261,35 +255,11 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
 
 </details><br/>
 
-[:arrow_up:Back to top](#contents)
-
-## Download
-
-### Fork the project
-
-```bash
-# clone the repository
-$ git clone https://github.com/champloohq/hyper-star-wars.git
-# navigate to the project directory
-$ cd hyper-star-wars
-```
-
-### Using `npm`
-
-```bash
-# get the package & set it as a dependency
-$ npm install hyper-star-wars --save
-# or set it as a devDependency
-$ npm install hyper-star-wars --save-dev
-# or even save it globally
-$ npm install hyper-star-wars -g
-```
-
 ## Related
 
 More awesome Hyper plugins.
 
-- [Hyper Pokemon](https://github.com/champloohq/hyper-pokemon) - 🌈 Tailor-made Pokémon themes for your Hyper terminal
+- [Hyper Pokemon](https://github.com/champloohq/hyper-pokemon) - 🌈 Tailor-made Pokémon themes for your Hyper terminal.
 
 ## Team
 
@@ -301,4 +271,4 @@ Meet the team and all the [contributors](https://github.com/champloohq/hyper-sta
 
 ## License
 
-[MIT](https://github.com/champloohq/hyper-star-wars/blob/master/license.md)
+[MIT](https://github.com/klauscfhq/hyper-star-wars/blob/master/license.md)
