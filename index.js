@@ -6,17 +6,29 @@ const path = homeDir('/.hyper_plugins/node_modules/hyper-star-wars/backgrounds/'
 const extension = '.png';
 
 exports.decorateConfig = config => {
-	let theme;
 	let keys;
+	let theme;
 	let index;
-	const getTheme = Array.isArray(config.StarWarsTheme.character) ? config.StarWarsTheme.character[Math.floor(Math.random() * config.StarWarsTheme.character.length)] : config.StarWarsTheme.character;
-	let starWarsTheme = getTheme.toLowerCase();
-	const unibody = config.StarWarsTheme.unibody;
-	const unibodyFlag = unibody !== 'false';
-	const lightsaber = config.StarWarsTheme.lightsaber;
+
+	// Get the character option - defaults to 'yoda'
+	const character = config.StarWarsTheme ? (config.StarWarsTheme.character || 'yoda') : 'yoda';
+
+	// Get the lightsaber option - defaults to 'true'
+	const lightsaber = config.StarWarsTheme ? (config.StarWarsTheme.lightsaber || 'true') : 'true';
 	const lightsaberFlag = lightsaber !== 'false';
-	const avatar = config.StarWarsTheme.avatar;
+
+	// Get the unibody option - defaults to 'false'
+	const unibody = config.StarWarsTheme ? (config.StarWarsTheme.unibody || 'false') : 'false';
+	const unibodyFlag = unibody !== 'false';
+
+	// Get the avatar option - defaults to 'true'
+	const avatar = config.StarWarsTheme ? (config.StarWarsTheme.avatar || 'true') : 'true';
 	const avatarFlag = avatar !== 'false';
+
+	// Get a random character in case of a character array
+	const getTheme = Array.isArray(character) ? config.StarWarsTheme.character[Math.floor(Math.random() * config.StarWarsTheme.character.length)] : character;
+	// Make it lower-case
+	let starWarsTheme = getTheme.toLowerCase();
 
 	// Load color palettes from yaml files
 	const charactersYml = yaml.safeLoad(
