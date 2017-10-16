@@ -1,10 +1,18 @@
 <h1 align="center">
-			<a href="https://github.com/klauscfhq/hyper-star-wars">
-				<img src="https://cdn.rawgit.com/champloohq/hyper-star-wars/f76cf2d0/media/header.png" alt="Hyper Star Wars" width="100%">
-			</a>
+  <img src="https://cdn.rawgit.com/klauscfhq/hyper-star-wars/32d811df/media/logo.png" width="27%"><br/>Hyper Star Wars
 </h1>
 
-> 🚀Super awesome, your Hyper terminal shall look.
+<h4 align="center">
+  🚀 Super awesome, your Hyper terminal shall look.
+</h4>
+
+<div align="center">
+      <a href="https://github.com/klauscfhq/hyper-star-wars">
+        <img src="https://cdn.rawgit.com/klauscfhq/hyper-star-wars/32d811df/media/example.png" alt="Hyper Star Wars" width="95%">
+      </a>
+</div>
+
+> 
 
 [![May the Force be will you](https://img.shields.io/badge/May%20the%20Force-be%20with%20you-green.svg)](https://github.com/klauscfhq/hyper-star-wars) [![Build Status](https://travis-ci.org/klauscfhq/hyper-star-wars.svg?branch=master)](https://travis-ci.org/klauscfhq/hyper-star-wars) [![Dependency Status](https://dependencyci.com/github/klauscfhq/hyper-star-wars/badge)](https://dependencyci.com/github/klauscfhq/hyper-star-wars) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/klauscfhq/hyper-star-wars) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/klauscfhq/hyper-star-wars) [![Latest version](https://badge.fury.io/gh/klauscfhq%2Fhyper-star-wars.svg)](https://github.com/kklauscfhq/hyper-star-wars/releases) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/bnb/awesome-hyper)
 
@@ -14,7 +22,7 @@
 - [Install](#install)
 - [Usage](#usage)
 - [Options](#options)
-- [Star Wars Characters](#star-wars-characters)
+- [Available Themes](#available-themes)
 - [Related](#related)
 - [Team](#team)
 - [License](#license)
@@ -25,7 +33,7 @@
 
 All of the wonderful Star Wars backgrounds were created by the amazing [Filipe de Carvalho](http://filipedecarvalho.com) and are part of his [Star Wars - Long Shadow Flat Design Icons](http://filipedecarvalho.com/star-wars-long-shadow-flat-design-icons) project. You can [appreciate his project](https://www.behance.net/gallery/17998561/Star-Wars-Long-Shadow-Flat-Design-Icons) and the rest of his super awesome work on [Behance](https://www.behance.net/creativeflip).
 
-Do you enjoy this project? Maybe you love **Pokémon**? Then, you will also love our [Hyper Pokémon](https://github.com/champloohq/hyper-pokemon) ![](media/pikachu.gif) theme project. Go take a peek.
+Do you enjoy this project? Maybe you love **Pokémon**? Then, you will also love our [Hyper Pokémon](https://github.com/klauscfhq/hyper-pokemon) ![](media/pikachu.gif) theme project. Go take a peek.
 
 Come over to our [Gitter](https://gitter.im/klauscfhq/hyper-star-wars) chat to share your thoughts on the project or to just say hi.
 
@@ -94,7 +102,7 @@ Using this option you can choose your Star Wars character theme along with it's 
 
 The assignable values are:
 
-- `character name` - choose any of the [available Star Wars characters](#star-wars-characters) by defining their name.<br/><br/>**i.e.** `character: 'yoda'`, `character: 'darth-vader'`, `character: 'bb8'` **etc**<br/><br/>
+- `character name` - choose any of the [available Star Wars characters](#available-themes) by defining their name.<br/><br/>**i.e.** `character: 'yoda'`, `character: 'darth-vader'`, `character: 'bb8'` **etc**<br/><br/>
 
 - `random` - randomly selects a Star Wars character theme from **all available characters**, each time you fire up a new Hyper terminal session.<br/><br/>
 **i.e.** `character: 'random'`<br/><br/>
@@ -148,108 +156,39 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
 
 ![](media/avatar-example.png)
 
-## Star Wars Characters
+## Available Themes
 
-### `darth-vader`
-
-![](media/darth-vader.png)
+You can preview in detail all of the themes [here](https://klauscfhq.github.io/hyper-star-wars).
 
 <details>
-<summary>View all the available Star Wars characters</summary>
+<summary>List of all the available themes.</summary>
 
 <br/>
 
-### `yoda`
-
-![](media/yoda.png)
-
-### `stormtrooper`
-
-![](media/stormtrooper.png)
-
-### `r2d2`
-
-![](media/r2d2.png)
-
-### `chewbacca`
-
-![](media/chewbacca.png)
-
-### `snowtrooper`
-
-![](media/snowtrooper.png)
-
-### `kylo-ren`
-
-![](media/kylo-ren.png)
-
-### `bb8`
-
-![](media/bb8.png)
-
-### `obi-wan-kenobi`
-
-![](media/obi-wan-kenobi.png)
-
-### `luke-skywalker-older`
-
-![](media/luke-skywalker-older.png)
-
-### `emperor`
-
-![](media/emperor.png)
-
-### `spacetrooper`
-
-![](media/spacetrooper.png)
-
-### `c3po`
-
-![](media/c3po.png)
-
-### `finn`
-
-![](media/finn.png)
-
-### `boba-fett`
-
-![](media/boba-fett.png)
-
-### `leia-organa`
-
-![](media/leia-organa.png)
-
-### `maz-kanata`
-
-![](media/maz-kanata.png)
-
-### `finn-stormtrooper`
-
-![](media/finn-stormtrooper.png)
-
-### `han-solo`
-
-![](media/han-solo.png)
-
-### `luke-skywalker`
-
-![](media/luke-skywalker.png)
-
-### `rey`
-
-![](media/rey.png)
-
-### `princess-leia`
-
-![](media/princess-leia.png)
-
-### `poe-dameron`
-
-![](media/poe-dameron.png)
-
-### `han-solo-older`
-
-![](media/han-solo-older.png)
+* `darth-vader`
+* `yoda`
+* `stormtrooper`
+* `r2d2`
+* `chewbacca`
+* `snowtrooper`
+* `kylo-ren`
+* `bb8`
+* `obi-wan-kenobi`
+* `luke-skywalker-older`
+* `emperor`
+* `spacetrooper`
+* `c3po`
+* `finn`
+* `boba-fett`
+* `leia-organa`
+* `maz-kanata`
+* `finn-stormtrooper`
+* `han-solo`
+* `luke-skywalker`
+* `rey`
+* `princess-leia`
+* `poe-dameron`
+* `han-solo-older`
 
 <br/>
 
@@ -259,11 +198,11 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
 
 More awesome Hyper plugins.
 
-- [Hyper Pokemon](https://github.com/champloohq/hyper-pokemon) - 🌈 Tailor-made Pokémon themes for your Hyper terminal.
+- [Hyper Pokemon](https://github.com/klauscfhq/hyper-pokemon) - 🌈 Tailor-made Pokémon themes for your Hyper terminal.
 
 ## Team
 
-Meet the team and all the [contributors](https://github.com/champloohq/hyper-star-wars/blob/master/authors.md). <br/>
+Meet the team and all the [contributors](https://github.com/klauscfhq/hyper-star-wars/blob/master/authors.md). <br/>
 
 [![Klaus Sinani](https://avatars.githubusercontent.com/u/12670537?s=130)](https://github.com/klauscfhq) | [![Mario Sinani](https://avatars.githubusercontent.com/u/29512262?s=130)](https://github.com/mariocfhq)
 --- | ---
