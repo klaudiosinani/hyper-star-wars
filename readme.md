@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://cdn.rawgit.com/klauscfhq/hyper-star-wars/32d811df/media/logo.png" width="27%"><br/>Hyper Star Wars
+  <img src="https://cdn.rawgit.com/klauscfhq/hyper-star-wars/32d811df/media/logo.png" width="30%"><br/>Hyper Star Wars
 </h1>
 
 <h4 align="center">
