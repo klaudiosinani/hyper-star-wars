@@ -202,11 +202,10 @@ More awesome Hyper plugins.
 
 ## Team
 
-Meet the team and all the [contributors](https://github.com/klauscfhq/hyper-star-wars/blob/master/authors.md). <br/>
+Coded with ❤ by
 
-[![Klaus Sinani](https://avatars.githubusercontent.com/u/12670537?s=130)](https://github.com/klauscfhq) | [![Mario Sinani](https://avatars.githubusercontent.com/u/29512262?s=130)](https://github.com/mariocfhq)
---- | ---
-[Klaus Sinani](https://github.com/klauscfhq) | [Mario Sinani](https://github.com/mariocfhq)
+- Klaus Sinani [(@klauscfhq)](https://github.com/klauscfhq)
+- Mario Sinani [(@mariocfhq)](https://github.com/mariocfhq)
 
 ## License
 
