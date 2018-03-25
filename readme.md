@@ -12,9 +12,29 @@
       </a>
 </div>
 
-> 
-
-[![May the Force be will you](https://img.shields.io/badge/May%20the%20Force-be%20with%20you-green.svg)](https://github.com/klauscfhq/hyper-star-wars) [![Build Status](https://travis-ci.org/klauscfhq/hyper-star-wars.svg?branch=master)](https://travis-ci.org/klauscfhq/hyper-star-wars) [![Dependency Status](https://dependencyci.com/github/klauscfhq/hyper-star-wars/badge)](https://dependencyci.com/github/klauscfhq/hyper-star-wars) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/klauscfhq/hyper-star-wars) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/klauscfhq/hyper-star-wars) [![npm](https://img.shields.io/npm/dt/hyper-star-wars.svg)](https://github.com/klauscfhq/hyper-star-wars) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/bnb/awesome-hyper)
+<p align="center">
+  <a href="https://github.com/klauscfhq/hyper-star-wars">
+    <img alt="May the Force be will you" src="https://img.shields.io/badge/May%20the%20Force-be%20with%20you-green.svg">
+  </a>
+  <a href="https://travis-ci.org/klauscfhq/hyper-star-wars">
+    <img alt="Build Status" src="https://travis-ci.org/klauscfhq/hyper-star-wars.svg?branch=master">
+  </a>
+  <a href="https://tidelift.com/repo/github/klauscfhq/hyper-star-wars">
+    <img alt="Dependency Status" src="https://tidelift.com/badges/github/klauscfhq/hyper-star-wars?style=flat">
+  </a>
+  <a href="https://github.com/klauscfhq/hyper-star-wars">
+    <img alt="XO code style" src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg">
+  </a>
+  <a href="https://gitter.im/klauscfhq/hyper-star-wars">
+    <img alt="Gitter" src="https://img.shields.io/gitter/room/nwjs/nw.js.svg">
+  </a>
+  <a href="https://github.com/klauscfhq/hyper-star-wars">
+    <img alt="npm" src="https://img.shields.io/npm/dt/hyper-star-wars.svg">
+  </a>
+  <a href="https://github.com/bnb/awesome-hyper">
+    <img alt="Awesome" src="https://awesome.re/mentioned-badge.svg">
+  </a>
+</p>
 
 ## Contents
 
