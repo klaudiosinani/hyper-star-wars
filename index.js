@@ -136,18 +136,9 @@ exports.decorateConfig = config => {
   return Object.assign({}, config, syntax.scheme, {
     termCSS: `
       ${config.termCSS || ''}
-      .cursor-node {
-        -webkit-box-shadow: ${cursorSaber};
-      }
-      ::selection {
-        background: ${selectedColor} !important;
-      }
       ::-webkit-scrollbar-thumb {
         background-color: ${fontColor};
         -webkit-box-shadow: ${barSaber};
-      }
-      x-screen {
-        background: transparent !important;
       }
     `,
     css: `
