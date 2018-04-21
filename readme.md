@@ -139,14 +139,14 @@ The assignable values are:
 
 ### `lightsaber`
 
-Activates your theme's `lightsaber` mode, making your terminal's `cursor`, `tab bar` & `scroll bar` glow!
+Activates your theme's `lightsaber` mode, making your terminal's `tab bar` glow.
 
 The assignable values are:
 
 - `lightsaber: 'true'` - enable your theme's `lightsaber` mode
 - `lightsaber: 'false'` - disable your theme's `lightsaber` mode
 
-Also, completely omitting the `lightsaber` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`. (**default state**)
+Also, completely omitting the `lightsaber` option from your `.hyper.js` will have the same effect as defining it and setting it to `false`. (**Default value**)
 
 ![](media/lightsaber-example.png)
 
@@ -159,7 +159,7 @@ The assignable values are:
 - `unibody: 'true'` - choose it for a unibody color theme
 - `unibody: 'false'` - go for it if you like your terminal more colorful
 
-In addition, completely omitting the `unibody` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`. (**default state**)
+In addition, completely omitting the `unibody` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`. (**Default value**)
 
 ![](media/unibody-example.png)
 
@@ -172,7 +172,7 @@ The assignable values are:
 - `avatar: 'true'` - enable your theme's background `avatar`
 - `avatar: 'false'` - disable your theme's background `avatar`
 
-In addition, completely omitting the `avatar` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`. (**default state**)
+In addition, completely omitting the `avatar` option from your `.hyper.js` will have the same effect as defining it and setting it to `true`. (**Default value**)
 
 ![](media/avatar-example.png)
 
