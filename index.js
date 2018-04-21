@@ -76,6 +76,7 @@ function getImagePath(character) {
 }
 
 exports.decorateConfig = config => {
+  // Get user options
   const options = getUserOptions(config);
   const [themeName, colors] = getThemeColors(options.character);
   const imagePath = getImagePath(themeName);
@@ -85,6 +86,7 @@ exports.decorateConfig = config => {
   const fontColor = colors.font;
   const unibodyColor = colors.unibody;
   const activeTab = colors.tabs;
+  const header = color(primary).isDark() ? '#FAFAFA' : '#383A42';
   const tab = color(activeTab).darken(0.1);
   const selection = color(colors.header).alpha(0.5).string();
   const transparent = color(primary).alpha(0).string();
@@ -135,6 +137,9 @@ exports.decorateConfig = config => {
       .terms_terms {
         background: ${backgroundContent};
         background-size: cover;
+      }
+      .header_shape, .header_appTitle {
+        color: ${header};
       }
       .header_header, .header_windowHeader {
         background-color: ${primary} !important;
