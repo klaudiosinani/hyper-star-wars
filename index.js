@@ -1,139 +1,128 @@
+'use strict';
 const fs = require('fs');
+const path = require('path');
+const color = require('color');
 const yaml = require('js-yaml');
-const homeDir = require('home-dir');
 
-const path = homeDir('/.hyper_plugins/node_modules/hyper-star-wars/backgrounds/');
-const extension = '.png';
+const filepaths = {
+  backgrounds: path.resolve(__dirname, 'backgrounds')
+};
+
+const colorSchemes = {
+  characters: path.resolve(__dirname, 'characters.yml'),
+  sides: path.resolve(__dirname, 'sides.yml')
+};
+
+function getThemes() {
+  const themes = {};
+  Object.keys(colorSchemes).forEach(category => {
+    Object.assign(themes, yaml.safeLoad(fs.readFileSync(colorSchemes[category], 'utf8')));
+  });
+  return themes;
+}
+
+function getUserOptions(configObj) {
+  const config = configObj.StarWarsTheme;
+  return Object.assign({}, {
+    get avatar() {
+      return (config.avatar || 'true') !== 'false';
+    },
+    get character() {
+      if (Array.isArray(config.character)) {
+        return config.character[Math.floor(Math.random() * config.character.length)];
+      }
+      return config.character || 'yoda';
+    },
+    get lightsaber() {
+      return (config.lightsaber || 'false') === 'true';
+    },
+    get unibody() {
+      return (config.unibody || 'true') !== 'false';
+    }
+  });
+}
+
+function getRandomTheme(category) {
+  const index = Math.floor(Math.random() * (Object.keys(category).length));
+  const name = Object.keys(category)[index];
+  return [name, category[name]];
+}
+
+function getThemeColors(theme) {
+  const themes = getThemes();
+  const name = theme.trim().toLowerCase();
+  if (name === 'random') {
+    return getRandomTheme(themes.characters);
+  }
+  if (Object.prototype.hasOwnProperty.call(themes, name)) {
+    // Choose a random theme from the given category -- i.e. `light`
+    return getRandomTheme(themes[name]);
+  }
+  if (Object.prototype.hasOwnProperty.call(themes.characters, name)) {
+    // Return the requested character theme -- i.e. `bb8`
+    return [name, themes.characters[name]];
+  }
+  // Got non-existent theme name thus resolve to default
+  return ['yoda', themes.characters.yoda];
+}
+
+function getImagePath(character) {
+  const imagePath = [];
+  imagePath.push(...[path.join(filepaths.backgrounds, character), '.png']);
+  if (process.platform === 'win32') {
+    return imagePath.join('').replace(/\\/g, '/');
+  }
+  return imagePath.join('');
+}
 
 exports.decorateConfig = config => {
-  let keys;
-  let theme;
-  let index;
-
-  // Get the character option - defaults to 'yoda'
-  const character = config.StarWarsTheme ? (config.StarWarsTheme.character || 'yoda') : 'yoda';
-
-  // Get the lightsaber option - defaults to 'true'
-  const lightsaber = config.StarWarsTheme ? (config.StarWarsTheme.lightsaber || 'true') : 'true';
-  const lightsaberFlag = lightsaber !== 'false';
-
-  // Get the unibody option - defaults to 'false'
-  const unibody = config.StarWarsTheme ? (config.StarWarsTheme.unibody || 'false') : 'false';
-  const unibodyFlag = unibody !== 'false';
-
-  // Get the avatar option - defaults to 'true'
-  const avatar = config.StarWarsTheme ? (config.StarWarsTheme.avatar || 'true') : 'true';
-  const avatarFlag = avatar !== 'false';
-
-  // Get a random character in case of a character array
-  const getTheme = Array.isArray(character) ? config.StarWarsTheme.character[Math.floor(Math.random() * config.StarWarsTheme.character.length)] : character;
-  // Make it lower-case
-  let starWarsTheme = getTheme.toLowerCase();
-
-  // Load color palettes from yaml files
-  const charactersYml = yaml.safeLoad(
-    fs.readFileSync(
-      homeDir('/.hyper_plugins/node_modules/hyper-star-wars/characters.yml'),
-      'utf8'
-    )
-  );
-
-  const sidesYml = yaml.safeLoad(
-    fs.readFileSync(
-      homeDir('/.hyper_plugins/node_modules/hyper-star-wars/sides.yml'),
-      'utf8'
-    )
-  );
-
-  // Determine theme color palette
-  if (starWarsTheme === 'random') {
-    keys = Object.keys(charactersYml.characters);
-    index = Math.floor(Math.random() * (keys.length));
-    starWarsTheme = keys[index];
-  } else if (starWarsTheme === 'light') {
-    keys = Object.keys(sidesYml.light);
-    index = Math.floor(Math.random() * (keys.length));
-    starWarsTheme = keys[index];
-  } else if (starWarsTheme === 'dark') {
-    keys = Object.keys(sidesYml.dark);
-    index = Math.floor(Math.random() * (keys.length));
-    starWarsTheme = keys[index];
-  }
-
-  if (Object.prototype.hasOwnProperty.call(charactersYml.characters, starWarsTheme)) {
-    theme = charactersYml.characters[starWarsTheme];
-  } else {
-    theme = charactersYml.default.yoda;
-  }
+  const options = getUserOptions(config);
+  const [themeName, colors] = getThemeColors(options.character);
+  const imagePath = getImagePath(themeName);
 
   // Set theme colors
-  const primary = (unibodyFlag === true) ? theme.unibody : theme.header;
-  const fontColor = theme.font;
-  const tabsColor = theme.tabs;
-  const selectedColor = theme.header;
-  const unibodyColor = theme.unibody;
-  const themeBlack = theme.black;
-  const themeRed = theme.red;
-  const themeGreen = theme.green;
-  const themeYellow = theme.yellow;
-  const themeBlue = theme.blue;
-  const themeMagenta = theme.magenta;
-  const themeCyan = theme.cyan;
-  const themeWhite = theme.white;
-  const themeLightBlack = theme.lightBlack;
-  const themeLightRed = theme.lightRed;
-  const themeLightGreen = theme.lightGreen;
-  const themeLightYellow = theme.lightYellow;
-  const themeLightBlue = theme.lightBlue;
-  const themeLightMagenta = theme.lightMagenta;
-  const themeLightCyan = theme.lightCyan;
-  const themeLightWhite = theme.lightWhite;
+  const primary = options.unibody ? colors.unibody : colors.header;
+  const fontColor = colors.font;
+  const unibodyColor = colors.unibody;
+  const activeTab = colors.tabs;
+  const tab = color(activeTab).darken(0.1);
+  const selection = color(colors.header).alpha(0.5).string();
+  const transparent = color(primary).alpha(0).string();
 
-  const syntax = {
-    scheme: {
-      borderColor: primary,
-      cursorColor: fontColor,
-      foregroundColor: fontColor,
-      backgroundColor: tabsColor,
-      colors: {
-        black: themeBlack,
-        red: themeRed,
-        green: themeGreen,
-        yellow: themeYellow,
-        blue: themeBlue,
-        magenta: themeMagenta,
-        cyan: themeCyan,
-        white: themeWhite,
-        lightBlack: themeLightBlack,
-        lightRed: themeLightRed,
-        lightGreen: themeLightGreen,
-        lightYellow: themeLightYellow,
-        lightBlue: themeLightBlue,
-        lightMagenta: themeLightMagenta,
-        lightCyan: themeLightCyan,
-        lightWhite: themeLightWhite
-      }
+  // Set lightsaber
+  const barSaber = options.lightsaber ? `0 0 10px ${fontColor}` : '';
+
+  // Set background
+  const themeAvatar = `url("file://${imagePath}") center;`;
+  const backgroundContent = options.avatar ? themeAvatar : unibodyColor;
+
+  const scheme = {
+    backgroundColor: transparent,
+    borderColor: primary,
+    cursorColor: fontColor,
+    foregroundColor: fontColor,
+    selectionColor: selection,
+    colors: {
+      black: colors.black,
+      red: colors.red,
+      green: colors.green,
+      yellow: colors.yellow,
+      blue: colors.blue,
+      magenta: colors.magenta,
+      cyan: colors.cyan,
+      white: colors.white,
+      lightBlack: colors.lightBlack,
+      lightRed: colors.lightRed,
+      lightGreen: colors.lightGreen,
+      lightYellow: colors.lightYellow,
+      lightBlue: colors.lightBlue,
+      lightMagenta: colors.lightMagenta,
+      lightCyan: colors.lightCyan,
+      lightWhite: colors.lightWhite
     }
   };
 
-  let pathToTheme;
-  const assemblePath = path + starWarsTheme + extension;
-
-  // Lightsaber effect settings
-  const cursorSaber = (lightsaberFlag === true) ? '0 0 10px 2px ' + fontColor : '';
-  const barSaber = (lightsaberFlag === true) ? '0 0 10px ' + fontColor : '';
-
-  if (process.platform === 'win32') {
-    pathToTheme = assemblePath.replace(/\\/g, '/');
-  } else {
-    pathToTheme = assemblePath;
-  }
-
-  // Background settings
-  const themeAvatar = 'url("file://' + pathToTheme + '") center';
-  const backgroundContent = (avatarFlag === true) ? themeAvatar : unibodyColor;
-
-  return Object.assign({}, config, syntax.scheme, {
+  return Object.assign({}, config, scheme, {
     termCSS: `
       ${config.termCSS || ''}
       ::-webkit-scrollbar-thumb {
@@ -165,7 +154,7 @@ exports.decorateConfig = config => {
         background-color: ${fontColor};
       }
       .tabs_nav .tabs_list .tab_tab:not(.tab_active) {
-        background-color: rgba(0,0,0,0.1);
+        background-color: ${tab};
       }
       .tabs_nav .tabs_list {
         color: ${primary};
