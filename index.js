@@ -149,9 +149,22 @@ exports.decorateConfig = config => {
       }
       .tab_icon {
         color: ${fontColor};
+        width: 15px;
+        height: 15px;
       }
       .tab_icon:hover {
         background-color: ${fontColor};
+      }
+      .tab_shape {
+        color: ${unibodyColor};
+        width: 7px;
+        height: 7px;
+      }
+      .tab_shape:hover {
+        color: ${unibodyColor};
+      }
+      .tab_active {
+        background-color: ${activeTab};
       }
       .tabs_nav .tabs_list .tab_tab:not(.tab_active) {
         background-color: ${tab};
