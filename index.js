@@ -21,8 +21,7 @@ function getThemes() {
   return themes;
 }
 
-function getUserOptions(configObj) {
-  const config = configObj.StarWarsTheme;
+function getUserOptions({StarWarsTheme: config = {}}) {
   return Object.assign({}, {
     get avatar() {
       return (config.avatar || 'true') !== 'false';
