@@ -61,21 +61,15 @@ Get the backgrounds as 4K HD wallpapers [here](https://www.dropbox.com/sh/il9099
 
 ## Install
 
-### Using the plugin manager - `hpm-cli`
+### Using the plugin manager - `hyper`
 
-Firstly, ensure you have [Hyper](https://github.com/zeit/hyper/releases) and [Node.js](https://nodejs.org) installed in your system.<br/>
-Then simply do the `npm` dance to get `hpm-cli`
-
-```bash
-# fire up a terminal and type
-$ npm install -g hpm-cli
-```
+Firstly, ensure you have [Hyper](https://github.com/zeit/hyper/releases) installed in your system.
 
 Once done with that, it's time to install the `hyper-star-wars` theme.
 
 ```bash
-# run the hyper plugin manager
-$ hpm install hyper-star-wars
+# fire up a terminal and type
+$ hyper i hyper-star-wars
 ```
 
 ### Manually through `.hyper.js`
