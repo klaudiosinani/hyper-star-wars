@@ -213,6 +213,7 @@ You can preview in detail all of the themes [here](https://klauscfhq.github.io/h
 More awesome Hyper plugins.
 
 - [Hyper Pokemon](https://github.com/klauscfhq/hyper-pokemon) - 🌈 Tailor-made Pokémon themes for your Hyper terminal.
+- [Hyperocean](https://github.com/klauscfhq/hyperocean) - 🌊 Deep oceanic blue Hyper theme. 
 
 ## Team
 
