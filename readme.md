@@ -19,18 +19,6 @@
   <a href="https://travis-ci.org/klauscfhq/hyper-star-wars">
     <img alt="Build Status" src="https://travis-ci.org/klauscfhq/hyper-star-wars.svg?branch=master">
   </a>
-  <a href="https://tidelift.com/repo/github/klauscfhq/hyper-star-wars">
-    <img alt="Dependency Status" src="https://tidelift.com/badges/github/klauscfhq/hyper-star-wars?style=flat">
-  </a>
-  <a href="https://github.com/klauscfhq/hyper-star-wars">
-    <img alt="XO code style" src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg">
-  </a>
-  <a href="https://gitter.im/klauscfhq/hyper-star-wars">
-    <img alt="Gitter" src="https://img.shields.io/gitter/room/nwjs/nw.js.svg">
-  </a>
-  <a href="https://github.com/klauscfhq/hyper-star-wars">
-    <img alt="npm" src="https://img.shields.io/npm/dt/hyper-star-wars.svg">
-  </a>
   <a href="https://github.com/bnb/awesome-hyper">
     <img alt="Awesome" src="https://awesome.re/mentioned-badge.svg">
   </a>
@@ -53,9 +41,7 @@
 
 All of the wonderful Star Wars backgrounds were created by the amazing [Filipe de Carvalho](http://filipedecarvalho.com) and are part of his [Star Wars - Long Shadow Flat Design Icons](http://filipedecarvalho.com/star-wars-long-shadow-flat-design-icons) project. You can [appreciate his project](https://www.behance.net/gallery/17998561/Star-Wars-Long-Shadow-Flat-Design-Icons) and the rest of his super awesome work on [Behance](https://www.behance.net/creativeflip).
 
-Do you enjoy this project? Maybe you love **Pokémon**? Then, you will also love our [Hyper Pokémon](https://github.com/klauscfhq/hyper-pokemon) ![](media/pikachu.gif) theme project. Go take a peek.
-
-Come over to our [Gitter](https://gitter.im/klauscfhq/hyper-star-wars) chat to share your thoughts on the project or to just say hi.
+Come over to [Gitter](https://gitter.im/klauscfhq/hyper-star-wars) or [Twitter](https://twitter.com/klauscfhq) to share your thoughts on the project.
 
 Get the backgrounds as 4K HD wallpapers [here](https://www.dropbox.com/sh/il9099epzoyylvw/AABfkYQbuzFJr9yIDaOROZcVa?dl=0).
 
@@ -210,10 +196,8 @@ You can preview in detail all of the themes [here](https://klauscfhq.github.io/h
 
 ## Related
 
-More awesome Hyper plugins.
-
-- [Hyper Pokemon](https://github.com/klauscfhq/hyper-pokemon) - 🌈 Tailor-made Pokémon themes for your Hyper terminal.
-- [Hyperocean](https://github.com/klauscfhq/hyperocean) - 🌊 Deep oceanic blue Hyper theme. 
+- [Hyper Pokemon](https://github.com/klauscfhq/hyper-pokemon) - Tailor-made Pokémon themes for your Hyper terminal.
+- [Hyperocean](https://github.com/klauscfhq/hyperocean) - Deep oceanic blue Hyper theme. 
 
 ## Team
 
