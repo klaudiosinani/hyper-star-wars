@@ -13,14 +13,14 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/klauscfhq/hyper-star-wars">
-    <img alt="May the Force be will you" src="https://img.shields.io/badge/May%20the%20Force-be%20with%20you-green.svg">
-  </a>
   <a href="https://travis-ci.org/klauscfhq/hyper-star-wars">
     <img alt="Build Status" src="https://travis-ci.org/klauscfhq/hyper-star-wars.svg?branch=master">
   </a>
   <a href="https://github.com/bnb/awesome-hyper">
     <img alt="Awesome" src="https://awesome.re/mentioned-badge.svg">
+  </a>
+  <a href="https://github.com/klauscfhq/hyper-star-wars">
+    <img alt="May the Force be will you" src="https://img.shields.io/badge/May%20the%20Force-be%20with%20you-green.svg">
   </a>
 </p>
 
