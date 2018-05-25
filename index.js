@@ -9,8 +9,8 @@ const filepaths = {
 };
 
 const colorSchemes = {
-  characters: path.resolve(__dirname, 'characters.yml'),
-  sides: path.resolve(__dirname, 'sides.yml')
+  characters: path.resolve(__dirname, 'themes', 'characters.yml'),
+  sides: path.resolve(__dirname, 'themes', 'sides.yml')
 };
 
 function getThemes() {
