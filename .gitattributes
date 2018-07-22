@@ -1,6 +1,2 @@
 * text=auto
 *.js text eol=lf
-*.png diff=exif
-*.psd binary
-*.pfd binary
-*.ai binary
