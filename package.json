@@ -17,6 +17,11 @@
       "url": "github.com/mariocfhq"
     }
   ],
+  "files": [
+    "index.js",
+    "backgrounds",
+    "themes"
+  ],
   "keywords": [
     "hyper",
     "hyper-star-wars",
