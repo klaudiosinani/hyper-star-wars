@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://cdn.rawgit.com/klauscfhq/hyper-star-wars/32d811df/media/logo.png" width="30%"><br/>Hyper Star Wars
+  <img src="media/logo.png" width="30%"><br/>Hyper Star Wars
 </h1>
 
 <h4 align="center">
@@ -7,19 +7,19 @@
 </h4>
 
 <div align="center">
-      <a href="https://github.com/klauscfhq/hyper-star-wars">
-        <img src="https://cdn.rawgit.com/klauscfhq/hyper-star-wars/32d811df/media/example.png" alt="Hyper Star Wars" width="95%">
+      <a href="https://github.com/klaussinani/hyper-star-wars">
+        <img src="media/example.png" alt="Hyper Star Wars" width="95%">
       </a>
 </div>
 
 <p align="center">
-  <a href="https://travis-ci.org/klauscfhq/hyper-star-wars">
-    <img alt="Build Status" src="https://travis-ci.org/klauscfhq/hyper-star-wars.svg?branch=master">
+  <a href="https://travis-ci.org/klaussinani/hyper-star-wars">
+    <img alt="Build Status" src="https://travis-ci.org/klaussinani/hyper-star-wars.svg?branch=master">
   </a>
   <a href="https://github.com/bnb/awesome-hyper">
     <img alt="Awesome" src="https://awesome.re/mentioned-badge.svg">
   </a>
-  <a href="https://github.com/klauscfhq/hyper-star-wars">
+  <a href="https://github.com/klaussinani/hyper-star-wars">
     <img alt="May the Force be will you" src="https://img.shields.io/badge/May%20the%20Force-be%20with%20you-green.svg">
   </a>
 </p>
@@ -41,7 +41,7 @@
 
 All of the wonderful Star Wars backgrounds were created by the amazing [Filipe de Carvalho](http://filipedecarvalho.com) and are part of his [Star Wars - Long Shadow Flat Design Icons](http://filipedecarvalho.com/star-wars-long-shadow-flat-design-icons) project. You can [appreciate his project](https://www.behance.net/gallery/17998561/Star-Wars-Long-Shadow-Flat-Design-Icons) and the rest of his super awesome work on [Behance](https://www.behance.net/creativeflip).
 
-Come over to [Gitter](https://gitter.im/klauscfhq/hyper-star-wars) or [Twitter](https://twitter.com/klauscfhq) to share your thoughts on the project.
+Come over to [Gitter](https://gitter.im/klaussinani/hyper-star-wars) or [Twitter](https://twitter.com/klaussinani) to share your thoughts on the project.
 
 Get the backgrounds as 4K HD wallpapers [here](https://www.dropbox.com/sh/il9099epzoyylvw/AABfkYQbuzFJr9yIDaOROZcVa?dl=0).
 
@@ -158,7 +158,7 @@ In addition, completely omitting the `avatar` option from your `.hyper.js` will 
 
 ## Available Themes
 
-You can preview in detail all of the themes [here](https://klauscfhq.github.io/hyper-star-wars).
+You can preview in detail all of the themes [here](https://klaussinani.github.io/hyper-star-wars).
 
 <details>
 <summary>List of all the available themes.</summary>
@@ -196,16 +196,16 @@ You can preview in detail all of the themes [here](https://klauscfhq.github.io/h
 
 ## Related
 
-- [Hyper Pokemon](https://github.com/klauscfhq/hyper-pokemon) - Tailor-made Pokémon themes for your Hyper terminal.
-- [Hyperocean](https://github.com/klauscfhq/hyperocean) - Deep oceanic blue Hyper theme. 
+- [Hyper Pokemon](https://github.com/klaussinani/hyper-pokemon) - Tailor-made Pokémon themes for your Hyper terminal.
+- [Hyperocean](https://github.com/klaussinani/hyperocean) - Deep oceanic blue Hyper theme. 
 
 ## Team
 
 Coded with ❤ by
 
-- Klaus Sinani [(@klauscfhq)](https://github.com/klauscfhq)
+- Klaus Sinani [(@klaussinani)](https://github.com/klaussinani)
 - Mario Sinani [(@mariocfhq)](https://github.com/mariocfhq)
 
 ## License
 
-[MIT](https://github.com/klauscfhq/hyper-star-wars/blob/master/license.md)
+[MIT](https://github.com/klaussinani/hyper-star-wars/blob/master/license.md)
