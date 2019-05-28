@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  🚀 Super awesome, your Hyper terminal shall look.
+  Super awesome, your Hyper terminal shall look.
 </h4>
 
 <div align="center">
@@ -200,8 +200,6 @@ You can preview in detail all of the themes [here](https://klaussinani.github.io
 - [Hyperocean](https://github.com/klaussinani/hyperocean) - Deep oceanic blue Hyper theme. 
 
 ## Team
-
-Coded with ❤ by
 
 - Klaus Sinani [(@klaussinani)](https://github.com/klaussinani)
 - Mario Sinani [(@mariosinani)](https://github.com/mariosinani)
