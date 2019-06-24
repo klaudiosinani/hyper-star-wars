@@ -133,6 +133,9 @@ exports.decorateConfig = config => {
     `,
     css: `
       ${config.css || ''}
+      .hyper_main {
+        background-color: ${unibodyColor};
+      }
       .terms_terms {
         background: ${backgroundContent};
         background-size: cover;
