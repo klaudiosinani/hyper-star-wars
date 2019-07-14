@@ -30,6 +30,7 @@ function getUserOptions({StarWarsTheme: config = {}}) {
       if (Array.isArray(config.character)) {
         return config.character[Math.floor(Math.random() * config.character.length)];
       }
+
       return config.character || 'yoda';
     },
     get lightsaber() {
@@ -53,14 +54,17 @@ function getThemeColors(theme) {
   if (name === 'random') {
     return getRandomTheme(themes.characters);
   }
+
   if (Object.prototype.hasOwnProperty.call(themes, name)) {
     // Choose a random theme from the given category -- i.e. `light`
     return getRandomTheme(themes[name]);
   }
+
   if (Object.prototype.hasOwnProperty.call(themes.characters, name)) {
     // Return the requested character theme -- i.e. `bb8`
     return [name, themes.characters[name]];
   }
+
   // Got non-existent theme name thus resolve to default
   return ['yoda', themes.characters.yoda];
 }
@@ -71,6 +75,7 @@ function getImagePath(character) {
   if (process.platform === 'win32') {
     return imagePath.join('').replace(/\\/g, '/');
   }
+
   return imagePath.join('');
 }
 
