@@ -11,7 +11,7 @@
 </div>
 
 <div align="center">
-  <a href="https://github.com/klaussinani/hyper-star-wars">
+  <a href="https://github.com/klaudiosinani/hyper-star-wars">
     <img alt="May the Force be will you" src="https://img.shields.io/badge/May%20the%20Force-be%20with%20you-green.svg">
   </a>
 </div>
