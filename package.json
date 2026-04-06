@@ -3,18 +3,18 @@
   "version": "3.2.1",
   "description": "Super awesome, your Hyper terminal shall look.",
   "license": "MIT",
-  "repository": "klaussinani/hyper-star-wars",
-  "homepage": "https://github.com/klaussinani/hyper-star-wars",
+  "repository": "klaudiosinani/hyper-star-wars",
+  "homepage": "https://github.com/klaudiosinani/hyper-star-wars",
   "author": {
-    "name": "Klaus Sinani",
-    "email": "klaussinani@gmail.com",
-    "url": "https://klaussinani.github.io"
+    "name": "Klaudio Sinani",
+    "email": "klaudiosinani@protonmail.ch",
+    "url": "https://klaudiosinani.com"
   },
   "maintainers": [
     {
       "name": "Mario Sinani",
-      "email": "mariosinani@protonmail.ch",
-      "url": "github.com/mariocfhq"
+      "email": "mario.sinani@imperial.ac.uk",
+      "url": "https://github.com/mariosinani"
     }
   ],
   "files": [
